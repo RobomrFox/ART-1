@@ -3,7 +3,6 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
-    - !<own> 04829c26-dbe5-417a-92db-7922456688b0
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -24,7 +23,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 5a1f90cd-0ccd-4e85-a61c-665ab7d59e5e
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
 - !<Camera/00000000-0000-0065-0000-000000000065>
@@ -170,10 +169,59 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
-- !<SceneObject/04829c26-dbe5-417a-92db-7922456688b0>
+- !<SceneObject/1236c9ab-aa18-4e0a-8ea1-a40b26b40467>
   PrefabRemaps:
     []
-  Name: Cone
+  Name: Falling_stars_highres
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -178.223557}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 500.000000, y: 500.000000, z: 500.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c61f468-57e3-4591-8b96-db5992ee7e59
+- !<SceneObject/234a84c0-6be4-43cb-bed2-1124099e372a>
+  PrefabRemaps:
+    []
+  Name: Dragon_Constellation_alpha
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -45.583130, y: 22.090942, z: -133.851898}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 60.650002, y: 60.650002, z: 60.650002}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da83b77e-f07f-444f-a3ab-d0c2d0bcbbb6
+- !<Image/387df173-32fe-4383-bbf6-0d197f079dc4>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c84e13f9-678a-43d4-bc10-ab0699ad5cb8
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/5a1f90cd-0ccd-4e85-a61c-665ab7d59e5e>
+  PrefabRemaps:
+    []
+  Name: Image Tracking
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -182,26 +230,102 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 1236c9ab-aa18-4e0a-8ea1-a40b26b40467
+    - !<own> ea1269c6-e2ff-45c3-91e8-c609729e4374
+    - !<own> 234a84c0-6be4-43cb-bed2-1124099e372a
+    - !<own> b9d55c47-a0a6-4040-8c88-8192d5a6fdc4
   Components:
-    - !<own> 2fa7c810-ac50-43d1-9c49-cee1f5b10e57
-- !<RenderMeshVisual/2fa7c810-ac50-43d1-9c49-cee1f5b10e57>
+    - !<own> 6a305fbc-8797-4b14-b20c-72b02204fe75
+- !<MarkerTrackingComponent/6a305fbc-8797-4b14-b20c-72b02204fe75>
   PrefabRemaps:
     []
-  Name: Render Mesh Visual
+  Name: Marker Tracking
+  Enabled: true
+  Marker: !<reference> d97ed3c2-6cef-418c-906b-2dc12f9405ca
+- !<Image/8c61f468-57e3-4591-8b96-db5992ee7e59>
+  PrefabRemaps:
+    []
+  Name: Image
   Enabled: true
   RenderOrder: 0
-  StretchMode: Stretch
+  StretchMode: Fit
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> fe0578fb-6968-482b-b01b-c926adc279f3
-  Mesh: !<reference> 1c279bff-cdc6-4ce8-b003-c7cf4cc33d4e
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
+    - !<reference> a220c37d-6dfa-4e80-b906-bd8bfeb034e5
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/adda6c3e-cd77-4d9e-92fb-177194231ef1>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 765e96fb-14c3-44fb-8d63-caf2b0cbc7fc
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/b9d55c47-a0a6-4040-8c88-8192d5a6fdc4>
+  PrefabRemaps:
+    []
+  Name: Poem2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -84.138649, y: 9.995687, z: -116.653435}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 80.000000, y: 79.999992, z: 79.999992}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 387df173-32fe-4383-bbf6-0d197f079dc4
+- !<Image/da83b77e-f07f-444f-a3ab-d0c2d0bcbbb6>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0103e772-7961-497e-98ba-d41466cfc3f8
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/ea1269c6-e2ff-45c3-91e8-c609729e4374>
+  PrefabRemaps:
+    []
+  Name: DRAGONPNG
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -136.628036}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 300.000000, y: 300.000000, z: 300.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> adda6c3e-cd77-4d9e-92fb-177194231ef1
