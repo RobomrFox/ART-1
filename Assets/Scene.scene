@@ -61,7 +61,11 @@
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/0005641c-028d-459a-0000-000000014b4d>
   PrefabRemaps:
-    []
+    - 0005641c-028d-459a-0000-000000014b4d: fe60a8d8-20fc-47d7-730b-b91ace74c634
+    - 0005641c-028d-4630-0000-000000014b56: 6d3c5c51-8dcf-46fd-552d-5e4a38633036
+    - 0005641c-028d-463e-0000-000000014b59: 098ae2cd-a25b-49cf-67ee-45592dabc43e
+    - 00056e79-b066-62ca-0000-000000001406: 3576ca25-ac4b-4cb8-7553-001a802d9aca
+    - 00056e79-b066-62f1-0000-000000001409: 313a32a7-68e7-4e4d-64a7-3ed0a9f7ed4d
   Name: Lighting
   Enabled: true
   Layers: 1
@@ -171,6 +175,21 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
+- !<SceneObject/007f3e73-ae4e-4803-a3a1-3c1f0eed53b9>
+  PrefabRemaps:
+    []
+  Name: GoldBackground_white
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -168.218369}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 289.679993, y: 289.679596, z: 289.679596}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64db3732-b4ac-45c3-83ba-b489710977df
 - !<SceneObject/0f7fe9de-d599-432e-9434-8852a6dc3fc4>
   PrefabRemaps:
     []
@@ -217,7 +236,10 @@
     Scale: {x: 500.000000, y: 500.000000, z: 500.000000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 814fd424-e295-4837-a1b2-db369fed7ab3
+    - !<own> cc8bf75a-725f-46f4-8486-95fa62e4d7ab
+    - !<own> 29af18d4-ef27-425c-8a29-d62ac6ba9d03
+    - !<own> 3364fe56-d2c2-437d-8cee-d58b0738029b
   Components:
     - !<own> 8c61f468-57e3-4591-8b96-db5992ee7e59
 - !<ScriptComponent/1ad070fe-f05f-41fe-9f7e-284a2393d52c>
@@ -278,6 +300,55 @@
   Components:
     - !<own> da83b77e-f07f-444f-a3ab-d0c2d0bcbbb6
     - !<own> 9b52ff85-6b88-47d0-b756-a276cd6f11cf
+- !<SceneObject/29af18d4-ef27-425c-8a29-d62ac6ba9d03>
+  PrefabRemaps:
+    []
+  Name: GoldBackground_cropped_L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.243330, y: 0.052084, z: 0.034684}
+    Rotation: {x: 0.000000, y: 1.000000, z: -90.000000}
+    Scale: {x: 0.100000, y: 0.588235, z: 0.588235}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d9877bc4-f4b3-4220-98ed-b2bd20b81161
+- !<Image/33009281-07ad-4a3c-b881-8fc6fc6c606e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f3b1b8b3-df42-4d81-a5ed-e8dc7980707e
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/3364fe56-d2c2-437d-8cee-d58b0738029b>
+  PrefabRemaps:
+    []
+  Name: GoldBackground_cropped_DL
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.237496, y: -0.041436, z: 0.034684}
+    Rotation: {x: 0.000000, y: 1.000000, z: 180.000000}
+    Scale: {x: 0.100000, y: 0.588235, z: 0.588235}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 79a3d550-6992-46dc-87f2-b70f928ead72
 - !<Camera/3aac5e84-9040-4fdd-9cad-2ede107befd1>
   PrefabRemaps:
     []
@@ -340,9 +411,29 @@
     - !<own> 1236c9ab-aa18-4e0a-8ea1-a40b26b40467
     - !<own> ea1269c6-e2ff-45c3-91e8-c609729e4374
     - !<own> 234a84c0-6be4-43cb-bed2-1124099e372a
+    - !<own> 007f3e73-ae4e-4803-a3a1-3c1f0eed53b9
     - !<own> 3e3069c8-dd81-4603-9748-5d010b1e1b8b
   Components:
     - !<own> 6a305fbc-8797-4b14-b20c-72b02204fe75
+- !<Image/5d074cdc-c672-407b-a29c-03315139a621>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f3b1b8b3-df42-4d81-a5ed-e8dc7980707e
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/5e97a609-064b-444f-8e27-05b52c0c35b9>
   PrefabRemaps:
     []
@@ -401,6 +492,25 @@
   ScriptTypes:
     "":
       {}
+- !<Image/64db3732-b4ac-45c3-83ba-b489710977df>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 870eb900-20cd-4be1-8a7c-f06c812fa61e
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<MarkerTrackingComponent/6a305fbc-8797-4b14-b20c-72b02204fe75>
   PrefabRemaps:
     []
@@ -421,12 +531,31 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> b55dd079-8e1b-4215-acf0-2248b4963232
-  Mesh: !<reference> 0eeaae88-a028-4f7f-a20e-6621c0ffc3d3
+  Mesh: !<reference> a4c31aec-7cd0-426e-afd7-9118d3dd7c33
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
   BlendShapes:
     {}
+- !<Image/79a3d550-6992-46dc-87f2-b70f928ead72>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f3b1b8b3-df42-4d81-a5ed-e8dc7980707e
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/8014e4f7-7728-43f9-946f-8c698edc7c3d>
   PrefabRemaps:
     []
@@ -443,6 +572,21 @@
   Components:
     - !<own> 1049aa4a-15a8-4956-a3d8-453995739e39
     - !<own> 1ad070fe-f05f-41fe-9f7e-284a2393d52c
+- !<SceneObject/814fd424-e295-4837-a1b2-db369fed7ab3>
+  PrefabRemaps:
+    []
+  Name: GoldBackground_cropped_R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.234270, y: 0.060161, z: 0.034684}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.100000, y: 0.588235, z: 0.588235}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33009281-07ad-4a3c-b881-8fc6fc6c606e
 - !<Image/8c61f468-57e3-4591-8b96-db5992ee7e59>
   PrefabRemaps:
     []
@@ -635,6 +779,40 @@
   Components:
     - !<own> 5e97a609-064b-444f-8e27-05b52c0c35b9
     - !<own> a7fb1da0-eb2e-4050-9e18-a13939ee7e6c
+- !<SceneObject/cc8bf75a-725f-46f4-8486-95fa62e4d7ab>
+  PrefabRemaps:
+    []
+  Name: GoldBackground_cropped_DR
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.241079, y: -0.032204, z: 0.034684}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 0.100000, y: 0.588235, z: 0.588235}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5d074cdc-c672-407b-a29c-03315139a621
+- !<Image/d9877bc4-f4b3-4220-98ed-b2bd20b81161>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f3b1b8b3-df42-4d81-a5ed-e8dc7980707e
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<Image/da83b77e-f07f-444f-a3ab-d0c2d0bcbbb6>
   PrefabRemaps:
     []

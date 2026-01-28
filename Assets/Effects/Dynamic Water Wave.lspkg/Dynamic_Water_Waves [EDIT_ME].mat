@@ -4,84 +4,7 @@
     - !<own> b9809d86-36b1-4193-abc7-8af0b1d33fce
 - !<PassInfo/b9809d86-36b1-4193-abc7-8af0b1d33fce>
   CachedProperties:
-    - Port_Depth_N004:
-        typeIdx: 1
-        value: 1.000000
-    - Port_FinalColor1_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_FinalColor2_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_FinalColor3_N004:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - Port_GSplatPointSize_N004:
-        typeIdx: 1
-        value: 0.000000
-    - Port_GSplatRotation_N004:
-        typeIdx: 5
-        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    - Port_GSplatScale_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 0.000000}
-    - Port_Input2_N019:
-        typeIdx: 5
-        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-    - Port_LODValue_N012:
-        typeIdx: 1
-        value: 0.000000
-    - Port_Output_N030:
-        typeIdx: 5
-        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-    - Port_Position0_N018:
-        typeIdx: 1
-        value: 0.000000
-    - Port_Position3_N018:
-        typeIdx: 1
-        value: 1.000000
-    - Port_PrevWorldPosition_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 0.000000}
-    - Port_RayDirection_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 1.000000, z: 0.000000}
-    - Port_RayOrigin_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 0.000000}
-    - Port_UVCoord_N012:
-        typeIdx: 3
-        value: {x: 0.000000, y: 0.000000}
-    - Port_WorldNormal_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 1.000000, z: 0.000000}
-    - Port_WorldTangent_N004:
-        typeIdx: 4
-        value: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - isProxyMode:
-        typeIdx: 2
-        value: false
-    - mainColor:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - overrideTimeElapsed:
-        typeIdx: 1
-        value: 0.000000
-    - overrideTimeEnabled:
-        typeIdx: 0
-        value: 0
-    - receivesRayTracedAo:
-        typeIdx: 2
-        value: false
-    - receivesRayTracedDiffuseIndirect:
-        typeIdx: 2
-        value: false
-    - receivesRayTracedReflections:
-        typeIdx: 2
-        value: false
-    - receivesRayTracedShadows:
-        typeIdx: 2
-        value: false
+    []
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -141,4 +64,4 @@
     Tweak_N3:
       typeIdx: 1
       value: 4.000000
-  Pass: !<reference> 94ef97ac-e0b8-4db9-9350-3416e20ae620
+  Pass: !<reference> c85b6e18-4292-4523-bab9-b07734628202

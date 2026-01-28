@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/c5510da3-22ea-41b1-99b5-641a9ed986d2>
+- !<AssetImportMetadata/f0816853-3feb-4b32-bb57-74dbc094d9ad>
   ImportedAssetIds:
-    FileMesh: !<reference> 0eeaae88-a028-4f7f-a20e-6621c0ffc3d3
+    FileMesh: !<reference> a4c31aec-7cd0-426e-afd7-9118d3dd7c33
   ImporterName: FileMeshImporter
-  PrimaryAsset: !<reference> 0eeaae88-a028-4f7f-a20e-6621c0ffc3d3
+  PrimaryAsset: !<reference> a4c31aec-7cd0-426e-afd7-9118d3dd7c33
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
