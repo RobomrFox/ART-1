@@ -1,15 +1,12 @@
-- !<Material/0103e772-7961-497e-98ba-d41466cfc3f8>
+- !<Material/8a8f5fb2-c959-4d03-913d-8570ae60e2c9>
   PackagePath: ""
   PassesInfo:
-    - !<own> 9210bb62-bcfd-4bcf-8262-2ce953692d41
-- !<PassInfo/9210bb62-bcfd-4bcf-8262-2ce953692d41>
+    - !<own> efd35748-f4d5-4fcc-8be2-70a398bfb229
+- !<PassInfo/efd35748-f4d5-4fcc-8be2-70a398bfb229>
   CachedProperties:
     - Port_Default_N369:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - alphaTestThreshold:
-        typeIdx: 1
-        value: 0.500000
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -26,7 +23,7 @@
     - NODE_27_DROPLIST_ITEM 0
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
-  BlendMode: Add
+  BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Default_N204:
       typeIdx: 1
@@ -40,7 +37,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 9c709054-4462-4dff-988f-7c74ae5ea384
+        id: ca4c3812-c786-4dc8-bf5a-15709c2593e3
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
