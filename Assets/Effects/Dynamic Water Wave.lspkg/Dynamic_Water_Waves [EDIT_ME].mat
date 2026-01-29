@@ -131,7 +131,7 @@
       value: -1
     Tweak_N2:
       typeIdx: 1
-      value: 0.070000
+      value: 0.190000
     Tweak_N23:
       typeIdx: 5
       value: {x: 1.000000, y: 0.695216, z: 0.084031, w: 1.000000}
@@ -140,5 +140,5 @@
       value: 0.100000
     Tweak_N3:
       typeIdx: 1
-      value: 4.000000
+      value: 2.000000
   Pass: !<reference> 94ef97ac-e0b8-4db9-9350-3416e20ae620
