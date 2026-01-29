@@ -5,6 +5,7 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> b3e7da45-54cb-4406-8aea-ec532db75861
+    - !<own> 5b5f8824-95c5-4330-ba55-189fe0cd85ca
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -438,6 +439,21 @@
     - !<own> 3e3069c8-dd81-4603-9748-5d010b1e1b8b
   Components:
     - !<own> 6a305fbc-8797-4b14-b20c-72b02204fe75
+- !<SceneObject/5b5f8824-95c5-4330-ba55-189fe0cd85ca>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ddbf3802-a1aa-4efa-a8fe-1c3f7476ba45
 - !<ScriptComponent/5e97a609-064b-444f-8e27-05b52c0c35b9>
   PrefabRemaps:
     []
@@ -817,6 +833,23 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/ddbf3802-a1aa-4efa-a8fe-1c3f7476ba45>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7c41f80a-bcd7-4e9f-9f15-1251f9dd76e1
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/e0dfb989-981d-41c8-8000-2b098b4623c3>
   PrefabRemaps:
     []
