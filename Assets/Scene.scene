@@ -2,6 +2,7 @@
   PackagePath: ""
   objects:
     - !<own> c9f0559f-14ba-4d8f-a5e3-0d1cd352f80a
+    - !<own> 6c614f90-0477-40cf-b9e7-beb150113f5c
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> b3e7da45-54cb-4406-8aea-ec532db75861
@@ -191,11 +192,32 @@
     []
   Components:
     - !<own> 64db3732-b4ac-45c3-83ba-b489710977df
+- !<AnimationPlayer/0af20ce9-6de1-4ab6-9c83-41fe333ea777>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> bafb6ce6-34b9-4730-a88e-6a97685908db
+      Name: Dragon_BKE.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
 - !<SceneObject/0f7fe9de-d599-432e-9434-8852a6dc3fc4>
   PrefabRemaps:
     []
   Name: dragon_ball
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.058476, y: -0.088470, z: -0.000299}
@@ -439,6 +461,26 @@
     - !<own> 3e3069c8-dd81-4603-9748-5d010b1e1b8b
   Components:
     - !<own> 6a305fbc-8797-4b14-b20c-72b02204fe75
+- !<RenderMeshVisual/5af5be22-3f18-4cf7-8904-5e29f4890de7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Receiver
+  ShadowColor: {x: 0.058824, y: 0.058824, z: 0.058824, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 94648797-6def-4660-a92c-ee8e28be18a9
+  Mesh: !<reference> 77e6d76e-04ee-437c-b5aa-81916fcb474d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/5b5f8824-95c5-4330-ba55-189fe0cd85ca>
   PrefabRemaps:
     []
@@ -557,11 +599,29 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/6c614f90-0477-40cf-b9e7-beb150113f5c>
+  PrefabRemaps:
+    - 0af20ce9-6de1-4ab6-9c83-41fe333ea777: 8bb7e423-6169-4055-7b14-f89d130ed613
+    - 5af5be22-3f18-4cf7-8904-5e29f4890de7: f6d1618c-b56b-40a3-5f32-d6b68f4cb4af
+    - 6c614f90-0477-40cf-b9e7-beb150113f5c: 4ab20f3b-8625-49b5-7c1d-8d6d416ce51a
+    - cf8e2471-97b3-4a07-8e9a-3c86e8d66889: bf50a51e-a2f3-4ba6-61e4-05f6ac18d967
+  Name: DragonF5
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.050000, y: 0.050000, z: 0.050000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cf8e2471-97b3-4a07-8e9a-3c86e8d66889
+  Components:
+    - !<own> 0af20ce9-6de1-4ab6-9c83-41fe333ea777
 - !<SceneObject/8014e4f7-7728-43f9-946f-8c698edc7c3d>
   PrefabRemaps:
     []
   Name: english_translation
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: -25.223221, y: 0.000000, z: 54.167137}
@@ -814,6 +874,21 @@
   Components:
     - !<own> 5e97a609-064b-444f-8e27-05b52c0c35b9
     - !<own> a7fb1da0-eb2e-4050-9e18-a13939ee7e6c
+- !<SceneObject/cf8e2471-97b3-4a07-8e9a-3c86e8d66889>
+  PrefabRemaps:
+    []
+  Name: Dragon_BKE.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000023, y: -0.000001, z: -1758.017822}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5af5be22-3f18-4cf7-8904-5e29f4890de7
 - !<Image/da83b77e-f07f-444f-a3ab-d0c2d0bcbbb6>
   PrefabRemaps:
     []
@@ -854,7 +929,7 @@
   PrefabRemaps:
     []
   Name: chinese_poem
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: -34.355618, y: 0.000000, z: 38.476089}
@@ -913,7 +988,7 @@
   PrefabRemaps:
     []
   Name: DRAGONPNG
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 3.347137, z: -154.912598}

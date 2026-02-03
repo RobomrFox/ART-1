@@ -1,0 +1,138 @@
+- !<AssetImportMetadata/120283fc-cb8c-41e0-b652-f000ae99861e>
+  ImportedAssetIds:
+    .hidden/bKE_mtl: !<reference> e26ba503-e0ff-46f1-8700-9e971fdba12d
+    4e6c8797971782b8: !<reference> a636825f-0744-416d-a109-b54bb9eda8f5
+    624f6792bd6e379e: !<reference> 22c68024-fc1b-4360-9920-5d69a6ea4871
+    7a0dd5cd69df73fa: !<reference> 952c92b6-ca84-411b-a251-b8a7e18cfee6
+    Materials/bKE_mtl: !<reference> 74f88ca3-4a5d-4539-8202-1eaf76bdba25
+    Materials/bKE_mtl|bKE_mtl|GraphPassInfo: !<reference> 43c41843-aee2-48bd-b14b-3c7995f91ad8
+    Meshes/Body.002: !<reference> c7b11ba9-6bce-4073-afad-7f428636fe4e
+    Scene: !<reference> 13ce9007-1c41-4fed-8214-a2755fd58c00
+    Textures/Dragon_Color: !<reference> 39b74017-5587-4bb7-836b-02aa18e5e8c5
+    Textures/Dragon_Normal: !<reference> 293810d9-b565-4101-b4ae-c6d72df69169
+    Textures/Dragon_Roughness: !<reference> 9bc9a31e-2ec6-488e-bf36-313ac9111945
+    d16387be6b33842f: !<reference> 1f620665-6260-4a7c-9871-07394ab12b22
+    d4ff569f4878a5d8: !<reference> a99c7f53-8af2-479f-b908-62702cd61dbf
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 13ce9007-1c41-4fed-8214-a2755fd58c00
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> c4f737f3-e0e6-4f4b-bd5d-b775fc9f5897
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpeg: Performance Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/1f620665-6260-4a7c-678e-f8c6b54ed4dd>
+  PrefabRemaps:
+    []
+  Name: Body.002
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 74f88ca3-4a5d-4539-8202-1eaf76bdba25
+  Mesh: !<reference> c7b11ba9-6bce-4073-afad-7f428636fe4e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/22c68024-fc1b-4360-66df-a2965915b78e>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a636825f-0744-416d-5ef6-4ab44612570a
+  Components:
+    []
+- !<SceneObject/952c92b6-ca84-411b-5dae-47581e730119>
+  PrefabRemaps:
+    []
+  Name: DragonF5
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 22c68024-fc1b-4360-66df-a2965915b78e
+  Components:
+    []
+- !<SceneObject/a636825f-0744-416d-5ef6-4ab44612570a>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a99c7f53-8af2-479f-46f7-9d8fd329e240
+  Components:
+    []
+- !<SceneObject/a99c7f53-8af2-479f-46f7-9d8fd329e240>
+  PrefabRemaps:
+    []
+  Name: Dragon_BKE.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.005000, y: 0.005000, z: 0.005000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f620665-6260-4a7c-678e-f8c6b54ed4dd
+- !<ObjectPrefabAssetData/c4f737f3-e0e6-4f4b-bd5d-b775fc9f5897>
+  Prototype: !<ObjectOwner/212c6ada-8158-45f5-974b-33b7eef550b4>
+    PackagePath: ""
+    objects:
+      - !<own> 952c92b6-ca84-411b-5dae-47581e730119

@@ -1,0 +1,173 @@
+- !<AssetImportMetadata/55f61318-b68f-4804-bf80-c1f3e0674bda>
+  ImportedAssetIds:
+    .hidden/bKE_mtl: !<reference> eba5fad9-e3d5-4289-9c58-db9cdef25d3f
+    .hidden/white: !<reference> b7ed23af-e22f-4a7f-9125-69fa718cc759
+    2028ca51e4a54211: !<reference> 8bb7e423-6169-4055-84eb-0762ecf129ec
+    47dc9bca52c5b5e2: !<reference> f6d1618c-b56b-40a3-a0cd-294970b34b50
+    7a0dd5cd69df73fa: !<reference> 4ab20f3b-8625-49b5-83e2-7292be931ae5
+    Animations/Dragon_BKE.001Action: !<reference> bafb6ce6-34b9-4730-a88e-6a97685908db
+    Animations/Dragon_BKE.001Action.001: !<reference> d4103d4e-d8ab-4958-bbff-4e32d0c025d8
+    Animations/Dragon_BKE.001_Action.002: !<reference> 5e95809f-f440-43d6-ab36-560293a96e3a
+    Animations/Dragon_BKE.001_Dragon_BKE.001Action: !<reference> 4e154356-4919-4ac2-82a6-79b2640ca5a2
+    Materials/bKE_mtl: !<reference> 94648797-6def-4660-a92c-ee8e28be18a9
+    Materials/bKE_mtl|bKE_mtl|GraphPassInfo: !<reference> c5abb1c9-90d5-4927-a7bf-c2006cdf41f9
+    Meshes/Dragon_BKE.001: !<reference> 77e6d76e-04ee-437c-b5aa-81916fcb474d
+    Scene: !<reference> 76759f1e-c768-4aa4-b7a4-c62ee064b52c
+    Textures/Dragon_Color: !<reference> 73df08e6-d235-4f88-8be2-4e5f7ce0b221
+    b7fbc28778db7cc5: !<reference> bf50a51e-a2f3-4ba6-9e1b-fa0953e72698
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 76759f1e-c768-4aa4-b7a4-c62ee064b52c
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 1ba51128-a342-4c54-8555-09c6f1b602a4
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/1ba51128-a342-4c54-8555-09c6f1b602a4>
+  Prototype: !<ObjectOwner/c03c0ddc-fd22-4274-9785-4561a5da8c9c>
+    PackagePath: ""
+    objects:
+      - !<own> 4ab20f3b-8625-49b5-7c1d-8d6d416ce51a
+- !<SceneObject/4ab20f3b-8625-49b5-7c1d-8d6d416ce51a>
+  PrefabRemaps:
+    []
+  Name: DragonF5
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf50a51e-a2f3-4ba6-61e4-05f6ac18d967
+  Components:
+    - !<own> 8bb7e423-6169-4055-7b14-f89d130ed613
+- !<AnimationPlayer/8bb7e423-6169-4055-7b14-f89d130ed613>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> bafb6ce6-34b9-4730-a88e-6a97685908db
+      Name: Dragon_BKE.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d4103d4e-d8ab-4958-bbff-4e32d0c025d8
+      Name: Dragon_BKE.001Action.001
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5e95809f-f440-43d6-ab36-560293a96e3a
+      Name: Dragon_BKE.001|Action.002
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4e154356-4919-4ac2-82a6-79b2640ca5a2
+      Name: Dragon_BKE.001|Dragon_BKE.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/bf50a51e-a2f3-4ba6-61e4-05f6ac18d967>
+  PrefabRemaps:
+    []
+  Name: Dragon_BKE.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000023, y: -0.000001, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f6d1618c-b56b-40a3-5f32-d6b68f4cb4af
+- !<RenderMeshVisual/f6d1618c-b56b-40a3-5f32-d6b68f4cb4af>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 94648797-6def-4660-a92c-ee8e28be18a9
+  Mesh: !<reference> 77e6d76e-04ee-437c-b5aa-81916fcb474d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -16,9 +16,7 @@
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
-    - ENABLE_BASE_TEX
-    - ENABLE_LIGHTING
-    - ENABLE_NORMALMAP
+    []
   BlendMode: Glass
   Properties:
     Port_Center_N016:
@@ -36,7 +34,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 82c8a97e-88cd-4da9-b675-623d7348f719
+        id: e696664f-8d5f-46b3-9b80-e816708a8e30
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -90,4 +88,4 @@
     uvScale:
       typeIdx: 1
       value: 1.000000
-  Pass: !<reference> 133ad681-5212-439b-8744-061e00f89d9f
+  Pass: !<reference> e9e8cbab-f935-4966-b839-24fdee158865
