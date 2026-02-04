@@ -7,17 +7,17 @@
     []
   DepthWrite: true
   DepthTest: true
-  DepthFunction: LessEqual
+  DepthFunction: GreaterEqual
   TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
-  CullMode: Back
+  CullMode: FrontAndBack
   PolygonOffset: {x: 0.000000, y: 0.000000}
   FrustumCulling: Auto
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
     []
-  BlendMode: Glass
+  BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Center_N016:
       typeIdx: 3
@@ -34,7 +34,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: e696664f-8d5f-46b3-9b80-e816708a8e30
+        id: 3e775729-0775-4854-af9a-373120e3c09e
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -52,7 +52,7 @@
     materialParamsTex:
       typeIdx: 9
       value:
-        id: f36ffa89-7f35-4267-83b2-06a186648091
+        id: 8dc9fac3-f1b3-4759-8c83-1248c0570051
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -70,7 +70,7 @@
     normalTex:
       typeIdx: 9
       value:
-        id: 8349cbd4-809f-4342-8ef0-c95e0ce9cba5
+        id: ea40f2c0-08b6-444a-94db-e92434fe3eef
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -87,5 +87,5 @@
         2: {x: 0.000000, y: 0.000000, z: 1.000000}
     uvScale:
       typeIdx: 1
-      value: 1.000000
+      value: 0.460000
   Pass: !<reference> e9e8cbab-f935-4966-b839-24fdee158865

@@ -16,12 +16,12 @@
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
-    - ENABLE_BASE_TEX
-  BlendMode: Disabled
+    []
+  BlendMode: Multiply
   Properties:
-    Port_AO_N006:
-      typeIdx: 4
-      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Center_N016:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
     Port_Emissive_N006:
       typeIdx: 4
       value: {x: 1.000000, y: 1.000000, z: 1.000000}
@@ -31,13 +31,10 @@
     PreviewEnabled:
       typeIdx: 0
       value: 0
-    baseColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     baseTex:
       typeIdx: 9
       value:
-        id: 70e8cc6d-7c14-4c3f-b906-77a7de46b2ba
+        id: 3e775729-0775-4854-af9a-373120e3c09e
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -46,10 +43,49 @@
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false
         type: Texture2D
-    metallic:
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 3e775729-0775-4854-af9a-373120e3c09e
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    materialParamsTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    normalTex:
+      typeIdx: 9
+      value:
+        id: 5dbd4977-9af2-444d-a60a-b0f5273ed258
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    normalTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    uvScale:
       typeIdx: 1
-      value: 0.000000
-    roughness:
-      typeIdx: 1
-      value: 0.000000
-  Pass: !<reference> 27456299-45d3-45a5-a3db-da5b4861daee
+      value: 1.000000
+  Pass: !<reference> e9e8cbab-f935-4966-b839-24fdee158865
