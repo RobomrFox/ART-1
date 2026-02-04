@@ -3079,8 +3079,8 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -139.986328, y: -33.157593, z: -115.713196}
-    Rotation: {x: 0.000000, y: -26.158182, z: 0.000000}
+    Position: {x: 111.464188, y: -32.760395, z: -96.207893}
+    Rotation: {x: -180.000000, y: 47.912865, z: -180.000000}
     Scale: {x: 0.100000, y: 0.100000, z: 0.100000}
     HasSegmentScaleCompensation: false
   Children:
@@ -3251,7 +3251,7 @@
   PrefabRemaps:
     []
   Name: DRAGONPNG
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 3.347137, z: -154.912598}
@@ -3390,7 +3390,6 @@
   Enabled: true
   ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
   ScriptInputsDefault:
-    sceneObjectReference: true
     playAutomatically: true
     type: true
     startInput: true
@@ -3405,7 +3404,7 @@
     {}
   ScriptInputs:
     "":
-      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sceneObjectReference: !<reference.SceneObject> ea1269c6-e2ff-45c3-91e8-c609729e4374
       tweenName: dragon-animation
       playAutomatically: true
       loopType: 1
