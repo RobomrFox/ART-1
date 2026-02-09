@@ -1,14 +1,14 @@
-- !<Material/8a8f5fb2-c959-4d03-913d-8570ae60e2c9>
+- !<Material/2973c575-8254-48fb-8fd2-c17dd0456aeb>
   PackagePath: ""
   PassesInfo:
-    - !<own> efd35748-f4d5-4fcc-8be2-70a398bfb229
-- !<PassInfo/efd35748-f4d5-4fcc-8be2-70a398bfb229>
+    - !<own> d0230fcb-2583-4958-89e5-23c965120011
+- !<PassInfo/d0230fcb-2583-4958-89e5-23c965120011>
   CachedProperties:
     - Port_Default_N369:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  DepthWrite: true
-  DepthTest: true
+  DepthWrite: false
+  DepthTest: false
   DepthFunction: LessEqual
   TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
@@ -18,11 +18,11 @@
   FrustumCullPad: 0.000000
   InstanceCount: 1
   Defines:
-    - ENABLE_BASE_TEX
     - NODE_13_DROPLIST_ITEM 0
     - NODE_27_DROPLIST_ITEM 0
     - NODE_49_DROPLIST_ITEM 0
     - NODE_69_DROPLIST_ITEM 0
+    - ENABLE_BASE_TEX
   BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Default_N204:
@@ -33,17 +33,17 @@
       value: 0
     baseColor:
       typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     baseTex:
       typeIdx: 9
       value:
-        id: 30cfe8d9-d4fd-431a-8635-0be241ee5c8e
+        id: 64d77a9f-66fd-4235-90af-dfc99f4810f1
         sampler:
           filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
           borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
           mipmaps: false
         type: Texture2D
-  Pass: !<reference> a63f0f94-4c36-44cf-902a-e0c58d297b28
+  Pass: !<reference> 9171aebc-a989-4eaf-a8b4-bfc23fc11a25
