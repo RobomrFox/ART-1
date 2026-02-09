@@ -1,14 +1,14 @@
-- !<Material/a220c37d-6dfa-4e80-b906-bd8bfeb034e5>
+- !<Material/d5c8bb5f-5753-4bf3-b26a-639f3aa9f7b7>
   PackagePath: ""
   PassesInfo:
-    - !<own> 1ab5a3d2-2c53-4227-9962-ede2d8923797
-- !<PassInfo/1ab5a3d2-2c53-4227-9962-ede2d8923797>
+    - !<own> 7e5d10a7-ab81-4057-bc75-d0c9de483199
+- !<PassInfo/7e5d10a7-ab81-4057-bc75-d0c9de483199>
   CachedProperties:
     - Port_Default_N369:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  DepthWrite: false
-  DepthTest: false
+  DepthWrite: true
+  DepthTest: true
   DepthFunction: LessEqual
   TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
@@ -37,7 +37,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 3128437c-b268-4490-8536-7731a92c2650
+        id: 51467377-1319-4bde-9b5e-efe635c41730
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
