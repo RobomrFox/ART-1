@@ -7,7 +7,7 @@
     - Port_Default_N369:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  DepthWrite: true
+  DepthWrite: false
   DepthTest: true
   DepthFunction: LessEqual
   TwoSided: false
@@ -37,7 +37,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 61913ef8-440e-4f86-860d-5ea8bc774727
+        id: 1ac799a3-c923-4230-9871-52dc09f71846
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat

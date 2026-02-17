@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Azure_Dragon_v1.1
   lensDescriptors:
     []
   lensApplicability:
@@ -22,9 +22,10 @@ metaInfo:
   lensClientCompatibilities:
     - Mobile
     - Web
+    - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: f8fdf44ebba5372c56027240f56b71f4
+  videoPreviewHash: 79ea662d60e35d2e209748c928ad0a84
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.17.2.26011319
   activationCamera: Front
