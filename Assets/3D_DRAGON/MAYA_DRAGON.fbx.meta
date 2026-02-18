@@ -1,0 +1,3050 @@
+- !<AssetImportMetadata/36ce4896-afae-4948-aa85-cd9beeafb2ba>
+  ImportedAssetIds:
+    .hidden/Dragon_Eyebrows_Whiskers_mtl: !<reference> 1e32eda1-521e-4a39-a958-34f50abedc59
+    .hidden/white: !<reference> 4f36a90c-cdaa-47e3-8eb3-573d9aff3d5d
+    015110323e68344d: !<reference> 91e1f74b-aa28-4e32-b28f-44d1f2a3a341
+    0214e042adfd5440: !<reference> 0e88b269-504d-4e88-b371-648d139f5d8f
+    05bb5825ad60c273: !<reference> 6ef7a229-1ef3-41fc-b615-e5827788bc22
+    0964e2c800f5f0d5: !<reference> ac928afa-6c76-41d6-972e-69aaedf5a160
+    0a3dbdc1699a3261: !<reference> 0137e20e-f7f7-4b38-945b-59fec7144097
+    0c458426bbe96d43: !<reference> 49e8e9ae-8855-4572-99c9-7c902ae1d915
+    0e7c33c6e6191206: !<reference> 8ba7a879-8833-484c-8436-6e26a5b69bb3
+    110ece314035410d: !<reference> 21ec9c12-21cb-4854-9495-60f01e21a6fe
+    13dfe2eecd686f22: !<reference> 5b802aa4-228e-463e-b47f-5680db7558bf
+    13f75add8120dabd: !<reference> b7378d2b-3c7e-4f67-9568-d254751016df
+    14f61c64c36e31dd: !<reference> da716c5e-03fc-42af-81b4-9f68764ef329
+    1692fdf06c3ca5cf: !<reference> aa0339d5-61c1-4edf-b35c-222151426703
+    16b602f38827fd8d: !<reference> c7b1cf64-d3f5-4ed8-8872-cd9a317fdae4
+    1702e5df262d675e: !<reference> 99ff6994-59d1-4dcf-8dbe-1624c6e9a70e
+    181c8c92e6e0d550: !<reference> 70254d66-e3d2-4799-8852-8e701f582285
+    1b742a36f1f8c485: !<reference> 4f946b27-6d5a-4170-be37-e4bc6dc8979a
+    1ba7779f80a42770: !<reference> 4314cf4c-f0f4-4199-b17e-f95bed50c7f0
+    1c109eae17f05c12: !<reference> cc38a397-754c-4dfe-a495-1fcab1c4a10c
+    1c2fd1514a29bd39: !<reference> 33cac2d4-d51f-461d-a582-cf1862468855
+    1f3785b5c73e10b2: !<reference> 47f62caf-5d51-4350-9c24-ce4450908ece
+    1f8b40168023d55d: !<reference> 111b5401-fc03-4ba5-9498-b8f5831fd539
+    20e3aa4c09dedf04: !<reference> 0fa49a01-e383-443c-af98-413c3a93b9b6
+    20fe5f134f656f69: !<reference> d8f8281d-1191-4941-9a2d-75b2a7d05ee9
+    22c10d806a2ef785: !<reference> 0bc9c483-4839-420d-a859-1d0ed4adca4b
+    23e2f91e968cb07d: !<reference> 721e4f45-33b9-41a7-9f6e-abca5558a3aa
+    249a70eb04a59254: !<reference> 790d42b1-feda-4a2e-9217-6b82b3332f67
+    270bdd084b80b7fd: !<reference> 4fa979c5-e056-4cf5-95d8-3f6914c1d8b7
+    291281ec9bee9c9b: !<reference> 1b5ce077-ea26-4d5d-8336-367089c28890
+    2a0853482e29e249: !<reference> 9fb554dd-c857-4bb8-a77b-4d0e94a1eeeb
+    2c9420a106828284: !<reference> d5506015-d19d-4f17-ba7f-b1d69c1dc4d5
+    2d96e1c77e74aede: !<reference> 6adc1300-7057-4ccd-920c-33a3d22885ca
+    2da37e0de8c19664: !<reference> 9062c0eb-6ae3-4aa5-88d3-422ef3a10c11
+    2e3628e3d928901d: !<reference> 54ce1835-55c9-47bb-be93-a65cef494e59
+    2ed317a41e4b38e4: !<reference> a63aa0a6-5fa9-44c0-a006-395459f734c7
+    3051b23fa8c7ede8: !<reference> 2fd10482-a2b4-4256-8c81-9160f9ef1707
+    3067e140a91c9fd9: !<reference> f3733f93-e934-4f39-b352-166ef6c08f27
+    34c936e4d5cfeb9e: !<reference> 9e69cc96-d36b-4342-9fd5-90785ab332e3
+    34d3d61dc60eec69: !<reference> 181de90e-bd57-4a98-b241-9469dffc7a65
+    3aa2036150e04f5a: !<reference> 89b19fc0-ab76-4f07-a44a-0f1a6d45e117
+    3de3a4b2dfb9cc46: !<reference> 895ead05-60d2-442d-9948-52ef04681a65
+    3e2f6ac34c72ba8f: !<reference> 15081bfa-7e0f-4e6a-ba77-7cbb6ea331b4
+    3f26224d683c6433: !<reference> cbd84fa6-4124-475a-9fd6-a05f60802329
+    41fab20b42d57804: !<reference> 7c318856-8478-4cf0-aca7-f3e98d087276
+    4432c74374c53cb3: !<reference> 4b138db5-0e61-4fb3-a5eb-165f598da4b7
+    44e7053cae4ab941: !<reference> e5b357d9-be37-46e7-8eea-40cf52819ff6
+    4ae2eceb9b2015bb: !<reference> 170f8c11-edf3-4697-8833-0bba21f3ed47
+    4b3f858545ae3394: !<reference> 213a73d4-1595-4fb2-986e-a18dab87cc4c
+    4fd15fc144e40ef9: !<reference> bcb2a8b8-91d9-40d1-9816-ed610f3b87f4
+    4ff292f0e4c72421: !<reference> 83ac1363-1679-498d-8785-89eff97f861e
+    5048fb6801fbcbbd: !<reference> e1ea6225-576d-4062-8e62-4b31b81aa184
+    516148a72d701483: !<reference> 82fa7a4b-d45d-4fdf-95a5-e89937134355
+    539a599e9a695855: !<reference> e5190cd7-5688-419a-ad82-c59e6abfe653
+    541cfd520438df88: !<reference> 43d89109-70fd-4bf5-8bb0-c38e29e24d13
+    543fb8113d121a77: !<reference> 0815da49-407d-42e1-a303-812839473633
+    5601f5a886f16268: !<reference> 1dbdafc6-3272-4cf6-be11-92b60d5dc156
+    56caacce3927e54c: !<reference> c9bedb01-dd7a-41a1-aefc-1c1cc659b4df
+    572196fc9f2df198: !<reference> 96e56082-888d-4ca7-a71c-f803f3725ea3
+    59765dd9d0bece3c: !<reference> ff1661be-8712-4703-bf81-c463e34c5a91
+    5b041b773b428c69: !<reference> 4e530e0c-ebcd-4920-9c77-55dbcd95ceac
+    5d219528d1bdd2aa: !<reference> de560cf3-fa9d-4f2b-8e3d-fd58d7ebf0ac
+    5f7499928bbc924e: !<reference> 95e5f517-05c4-45b3-a697-71fc1a62a7d0
+    6101e3cd46067145: !<reference> 1d1a7080-2a42-44ca-a5cd-f5ffca3aa3ac
+    641662e8a44e8282: !<reference> 393de937-eae6-4c4b-87eb-8edf9b360186
+    670f93345b190666: !<reference> 557a1ae2-a43e-42bd-94e4-a25eec68ba5c
+    68bc4f6fbdbd2ab3: !<reference> 4a119da5-131e-4410-9294-beb8de6ede28
+    6a21a698a63b2810: !<reference> 44c8265f-0635-4602-916a-5d4d22e086c2
+    6c67d28ddf1efce4: !<reference> 4f8a8393-d1cf-49e3-a144-56dd35a1152c
+    6ecdabeac85a3809: !<reference> 3546ee4f-7815-4429-8a23-52c73c3185ee
+    6efa9bf2e8751371: !<reference> 300f3e68-4ba4-4dd0-9cda-c3c7f0b7dc72
+    700a5bd70cef90ba: !<reference> b4d1b694-f99f-4c4f-b966-040698287808
+    70cd5763eb30f649: !<reference> 90b1f62c-5583-411d-8c8e-a6f8ba3474e5
+    7245e11e0dc6620c: !<reference> a302cbba-85c3-4205-9d8f-cebeeac8c9b8
+    763090b656ee4f68: !<reference> 4df1cc80-afbb-4635-8c9d-762277c99cba
+    76e61f92ba3d4ef4: !<reference> 99772652-07fa-43fe-a7b8-7e2cdb86e3cb
+    775b97290a2a1460: !<reference> 2eaad9c6-235f-4e9c-991b-2e0f2def4112
+    7796cad34e486c95: !<reference> 6235eba9-52e5-436a-8925-d9d6d0ec3f99
+    781e365d497925c7: !<reference> 71ca30b3-b9b9-42b3-9ca0-59f948a088af
+    7834540e5770eeae: !<reference> 0226cf9f-e141-46d9-8af5-7e5d2fa63c89
+    79f83495fc03fe7c: !<reference> 84ccf45d-bd37-4ff2-9a29-91bc9c03082a
+    7a0dd5cd69df73fa: !<reference> dbc1596f-1bad-4bd9-935b-007e720b54a7
+    7ec540e28733a617: !<reference> 975c62c1-6b85-4bfb-8b7d-cf8386bc2e13
+    7fdb3922cec26160: !<reference> 1d917398-8581-4b3e-81f3-923c0d58d979
+    80d27aab24085c41: !<reference> eaa654f5-1fef-4847-81fb-1a63cba1145c
+    81131ad35d91893a: !<reference> 22702e39-f0c7-4b1b-9528-643381641960
+    84b18f7b2b736b1c: !<reference> 4e66f2cb-8dcd-4002-8be8-b2c9de2614bf
+    8951942fe8efa471: !<reference> fce2e8c6-f294-4618-8542-21edbaeb995e
+    8ae07bc231f3c6c8: !<reference> 179fbedf-925c-4826-a29c-75349827c063
+    8fc87681623750da: !<reference> 4327e293-a857-4a9f-a46a-93c682b6e1a9
+    9173661223961b2f: !<reference> 91ad7c7b-c4df-4f6d-a008-62248d627303
+    92858a00d1c2221e: !<reference> b4d45371-68b5-4892-a359-c7662276964e
+    93b9c51acc602bb6: !<reference> eb91a625-4f57-4911-a314-a8503ffa2b26
+    9432014819e0d2de: !<reference> 22377cd5-9b30-46c3-8551-b7aedb82bdbc
+    944626ece5c2d6fe: !<reference> db5b334f-17c6-4643-9c38-71b04229db71
+    95f3f78f359008ae: !<reference> 27493713-06df-4550-8468-8036af597cd1
+    961a05f96c95c9e3: !<reference> ad4292d8-2888-4781-ba9a-2767f34a622b
+    9842443404dcc29a: !<reference> 7b385245-d992-4ddf-8a51-31893d5c923d
+    9932f6049b887648: !<reference> 43cf60eb-de5a-4737-b73d-a36761c74f89
+    Animations/Skeleton_Take 001_BaseLayer.002: !<reference> 7b6d78c4-1a47-4e86-b6e2-1bb54ad1e005
+    Animations/Skeleton_Take 001_BaseLayer.003: !<reference> 69e6877d-6f5f-4283-8d89-0187d3cf0373
+    Animations/Skeleton_Take 001_BaseLayer.004: !<reference> 4de3d65c-8f8d-4d88-b3a4-b8cfd1e8c311
+    Animations/Skeleton_Take 001_BaseLayer.005: !<reference> 8fdc26a4-abcb-4d37-acb2-4f1d3237ecb0
+    Animations/Skeleton_fly 001_BaseLayer.001: !<reference> 7b5b2fcf-42c8-4312-ac42-e1a23a825a37
+    Animations/Skeleton_fly 001_BaseLayer.002: !<reference> 0f25255a-92fe-4096-ac35-fab0cbb8b394
+    Animations/Skeleton_fly 001_BaseLayer.005: !<reference> 4ccc1d4f-ba89-4a1a-b624-b8e13cfe1a5a
+    Animations/Take 001_BaseLayer.005: !<reference> 975d85bd-8c2a-40ab-8410-9b1f92dc6f9b
+    Materials/Dragon_Eyebrows_Whiskers_mtl: !<reference> a020a2ef-2532-4435-9b1d-d1744a74867a
+    Materials/Dragon_Eyebrows_Whiskers_mtl|Dragon_Eyebrows_Whiskers_mtl|GraphPassInfo: !<reference> 1e16121e-0c18-4645-855c-c448b1a78ca8
+    Materials/HAIR_DR1: !<reference> db20a66b-1761-4ad0-aa28-37f4da4a96fd
+    Materials/HAIR_DR1|HAIR_DR1|GraphPassInfo: !<reference> 69871d9e-225f-4cd9-ba9a-db85ee260880
+    Materials/Head: !<reference> 763a227c-11b9-4657-8a3b-725cb4746a12
+    Materials/Head|Head|GraphPassInfo: !<reference> 6c580753-1ac4-4220-af8d-ee8cccd7acb9
+    Materials/Horn: !<reference> adc696e0-a2c4-403f-8c78-cc8f37b64aa0
+    Materials/Horn|Horn|GraphPassInfo: !<reference> a9f1aefe-39f9-43e6-9889-6ac31082a5d8
+    Materials/Material: !<reference> dc4fc81b-4edc-412f-b987-9d906289097a
+    Materials/Material.001: !<reference> 7fec0f75-a8ea-402e-be4b-a46375306baf
+    Materials/Material.001|Material.001|GraphPassInfo: !<reference> 5ce350bc-653c-4f1c-8d58-8a2afd2b1cf4
+    Materials/Material|Material|GraphPassInfo: !<reference> 70c2b3e8-2348-4e06-bb25-bb1be0c1010c
+    Materials/dRagon_bkd_MTL: !<reference> f9373930-8f61-429f-bc50-2d174cdef5f3
+    Materials/dRagon_bkd_MTL|dRagon_bkd_MTL|GraphPassInfo: !<reference> af7e0c60-b0b2-4b93-89b2-5d82546e067c
+    Materials/nails_Teeth: !<reference> 0a857712-911a-4b77-b562-785ffc8614c9
+    Materials/nails_Teeth|nails_Teeth|GraphPassInfo: !<reference> 881fbd80-af03-4b65-9532-97b8568d6a48
+    Meshes/Dragon_Eyebrows_Whiskers_geo: !<reference> aa0814c1-6c84-4300-86b0-fe8c98e7a60d
+    Meshes/Dragon_Fur_geo.001: !<reference> 9662f111-35ce-4fb7-a1d3-978b5a5bcf9c
+    Meshes/Dragon_body.001: !<reference> ac7a7bd7-3079-4809-a20c-c3e3bcbcbcc0
+    Meshes/Dragon_body1.001: !<reference> aff6399b-9ae4-4a38-8ead-c8a39b3ad171
+    Meshes/Dragon_body2.001: !<reference> ff977e0a-b06a-4400-83fd-a0f77a93541d
+    Meshes/Dragon_body3.001: !<reference> ab7d5f80-6497-46b2-b972-17ba23778a8c
+    Meshes/Dragon_body4.001: !<reference> a5f79ac8-8598-4f7f-8d26-a1353a394492
+    Meshes/Dragon_eyes_Geo.001: !<reference> 862dc3c5-9c2e-48da-aad9-1f6c86cfc95b
+    Scene: !<reference> f25971b4-cfbe-4147-936a-46e4f70c0e4b
+    Textures/Hair: !<reference> 16d59967-2579-44b9-892b-978a8e1846b2
+    Textures/Head_BaseColor: !<reference> 4160af24-02bb-46ae-8afb-b18f24108a33
+    Textures/Head_Normal: !<reference> 367e83c9-58ce-46d4-bf9d-e8a907dfb7e3
+    Textures/Horn_BaseColor.1001: !<reference> 81c6c96a-9618-4f4b-8edf-07cd50d4d534
+    Textures/Horn_Normal.1001: !<reference> 652d3767-d0fb-4f5e-b968-318ca4ed4542
+    Textures/Nails_Teeth_BaseColor.1001: !<reference> 2ec183af-21cd-43ee-b6b8-5ef14535b292
+    a181bd82aeb621e0: !<reference> 9e834658-747e-48bd-abe8-1cc9aacfe511
+    a1c42bce04e1c8ec: !<reference> 4926a512-d479-45ff-bdbf-b599438f4709
+    a217d40bcd3fb265: !<reference> 4c2f9bbe-a870-408e-97fa-764e3ff399a9
+    a26d99ed9b147183: !<reference> c162c70f-0a3d-4377-8dc9-2f42a8e5f025
+    a53523e62413ab39: !<reference> 12bbad30-2975-4015-b828-1c223e1cc282
+    a62cc541a1edc865: !<reference> e184da90-ba3d-4054-9228-a23141c19d9b
+    aa7b110aabfdfae5: !<reference> a19a5bb2-4c23-48a8-bd64-26f06a1ed340
+    ab10db77fa899f9a: !<reference> 042d424d-488d-409d-ae15-d93cdb7bfb51
+    ada38f73233e0b37: !<reference> 36b20bac-bef2-4642-a248-714ef403d3a4
+    b192ded9705e40aa: !<reference> 2f4fe907-5da7-4974-98eb-b94d025e58d7
+    b25cf0b96f6ac01d: !<reference> 82015064-f6e9-41ee-baf0-c6a1c31ff7ad
+    b2ab25a052930b30: !<reference> d4e99f97-5655-4a10-bdce-b83e257ff554
+    b392f228509749f3: !<reference> a946f03e-b9a0-43b5-b1ac-1365ccb4c483
+    b7377cc5e2c36c67: !<reference> dd798095-2444-4133-939f-8a2453762a2f
+    b76d28e93007ac3a: !<reference> ccc87c53-45a7-4d7d-98e5-bc3654dbf38e
+    b987e54163a2e69d: !<reference> d70d96ac-96a8-4d29-91b2-1dff11405d29
+    ba9031c87e9e2c44: !<reference> fccf961b-2fa9-49a8-a3b2-512f81da6dc4
+    bb8c6098cea5a084: !<reference> 64e9a376-f190-4bfa-9832-4afc6b77272d
+    bbf583ffcf9a89cd: !<reference> b75151cc-731a-42e0-8014-9e3ebeec6e71
+    bcf362f93e3058b0: !<reference> 25900074-77d6-486c-af96-ffc1cce09790
+    be3a906d267d047a: !<reference> d4831ef5-639b-4a71-a68c-b39828285b33
+    bf6086a6eb110bad: !<reference> 9c6266d4-cc2e-42c4-b9bd-fa8e991ea17e
+    bf95b7c07533359b: !<reference> 508d0733-5d6b-47c5-a844-b9ad76b1d3d3
+    c035abbaffa2447e: !<reference> b46a8a04-b459-4496-8673-3dee41214288
+    c30992543ee59520: !<reference> 164b8900-1901-4a38-b65f-ca3934f46a7b
+    c3904019b8771ee8: !<reference> ac350cde-d048-4dad-ad92-6cdf4e28e159
+    c398bce92020f124: !<reference> 023902db-f3eb-42c4-9d8c-888224584a48
+    c4dc6131c0d4ecc1: !<reference> b46cff31-a330-41cc-a2d0-61f224de2c32
+    c4e7ea2163edd4a1: !<reference> 98c96bd9-c375-4b21-a3c8-907d9d2c3856
+    c523115b343b8ba8: !<reference> 988467d7-4487-4854-820e-903e4a408490
+    c62e840d17325565: !<reference> ee097546-bb4f-4f0d-8f58-7515730c3d55
+    c69f782578a363c4: !<reference> eeb47e80-9191-4cd0-afb1-d22f71bcaeb6
+    c8c87b865b53882e: !<reference> 4ef99d05-2356-416a-86ce-0124ffa4fc5b
+    ca7bba4fa5d1fc85: !<reference> 25a941d0-09f6-4de7-8910-243be53d312f
+    cbc4c07f0e0d7c3e: !<reference> 09a37cea-98aa-48f4-b165-40e0ca777c66
+    ccccf1c4bc6408b6: !<reference> aa58994a-835b-4966-8b84-ba5f27654527
+    cd926aa9da2b90b4: !<reference> a14fe763-28d8-42e0-a406-84c0f9315958
+    d46f5209cc18e833: !<reference> f586a22b-39e3-4421-bb6e-7f302d292d58
+    d4ea84c578d6f89e: !<reference> 11440091-3c29-4a95-a5d2-cc2661efe79e
+    d4f9d0095cb33d70: !<reference> 6a251468-0d60-4fb4-9ffe-5a519316594e
+    d5ce84f08208725e: !<reference> afb97c83-3a09-421d-af65-1b6bde8553f7
+    d5d79d0b41e63e00: !<reference> fa488edf-4923-4b7f-a48e-ca12b5a3323e
+    d7cd102fab9b0a94: !<reference> e46e7fad-3ddb-4c6a-aa9f-edc7420f5436
+    d8d135e6f606a035: !<reference> 89f67a0f-8a81-48fc-8b95-115a2983c629
+    d977fabcfc9f5266: !<reference> 386823b0-a135-4805-9a24-0984d6ab3943
+    dac3894a44cc485c: !<reference> 717e0092-fe0a-40b5-a3af-190e619bc863
+    db6f8a2d41b3d611: !<reference> af70b34d-4679-4626-83c3-13c4654e7ba8
+    dcb88fab1943d1e4: !<reference> 5e694f9b-c7e9-4c7d-8a54-8239a91fa5b7
+    dd16be3953f6833f: !<reference> 76b4a23c-7241-424e-bdfe-64909caccfda
+    deb7a1f224ab5f6e: !<reference> 0f679bda-4b74-4e28-89e5-016fb58fb8f4
+    e0509977ebf0aac0: !<reference> 532ee7fb-b7fe-41d9-a983-d0a5986eb979
+    e1ddde9b3070fbc6: !<reference> 3c98a7f6-9b92-411a-adc2-46d1a3fbbc51
+    e1ec36983ee9c548: !<reference> 57b7b401-7c27-46c7-87d5-32290b838b3e
+    e29d51c730ce1324: !<reference> 9d7848eb-7a35-486c-b6cb-c56418c4f76d
+    e438fad8a78bc19d: !<reference> 4c4a8a88-1213-4bbb-8fb4-1ff489a4a75b
+    e5230b9fcacd3917: !<reference> d321c711-9c9b-4463-a9d2-ad3b5085558b
+    ea7bd5755a71bc14: !<reference> d3aee714-ed99-4099-b95e-305a0683d6d0
+    eaaba4c2e864d8cb: !<reference> 17523a54-4631-4194-925e-e23476d8e9dd
+    edb282faf050c413: !<reference> 5259d703-3569-4270-8e5c-6c30d8097a32
+    f0a1c1cec7c67691: !<reference> 5a0cdd5c-b730-4df4-81d6-3f8bbe5dd97b
+    f4047842217dd020: !<reference> 0881cab6-55ff-4c27-85ce-51f0f849a057
+    f48f228a605f9294: !<reference> fdaf7c08-5ce5-48af-b6b9-daf486c8d1e6
+    f851da98cd6035ca: !<reference> d5c9a921-2e69-4068-a496-4de9ca3711d7
+    fb1e938010cd245b: !<reference> b718ffe7-b682-49d8-ac78-3dfa02de0ff5
+    fc5a447d313181ca: !<reference> 1787bd27-5038-4d4f-9a5c-7539bfdb45af
+    fe03a4482242605b: !<reference> ba9ce638-24a1-4329-bd20-0b9f758c0b59
+    fed8a7edf7b64c1c: !<reference> 394e1c06-c971-4dae-a319-211f5d1a089b
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> f25971b4-cfbe-4147-936a-46e4f70c0e4b
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 11a181f5-bec8-4d15-b978-5c81a290e20b
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 24.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/0137e20e-f7f7-4b38-6ba4-a60138ebbf68>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone019_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000015, y: 0.100220, z: 0.000916}
+    Rotation: {x: 0.000000, y: -0.000000, z: -0.000013}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4926a512-d479-45ff-4240-4a66bc70b8f6
+  Components:
+    []
+- !<SceneObject/0226cf9f-e141-46d9-750a-81a2d059c376>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone002_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099885, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/023902db-f3eb-42c4-6273-777ddba7b5b7>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone024_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000137, y: 0.099442, z: 0.000565}
+    Rotation: {x: 0.000000, y: 0.000012, z: -0.000027}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fa488edf-4923-4b7f-5b71-35ed4a5ccdc1
+  Components:
+    []
+- !<SceneObject/042d424d-488d-409d-51ea-26c3248404ae>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone008
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1186.866455, y: 7853.581543, z: 3976.938477}
+    Rotation: {x: -121.021599, y: 23.968103, z: 1.241813}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ee097546-bb4f-4f0d-70a7-8aea8cf3c2aa
+  Components:
+    []
+- !<SceneObject/0815da49-407d-42e1-5cfc-7ed7c6b8c9cc>
+  PrefabRemaps:
+    []
+  Name: Bip001_L_Thigh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 55.380936, y: 0.001678, z: 0.003265}
+    Rotation: {x: -86.133774, y: -15.553383, z: -13.448566}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> eaa654f5-1fef-4847-7e04-e59c345eeba3
+  Components:
+    []
+- !<SceneObject/0881cab6-55ff-4c27-7a31-ae0f07b65fa8>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone040_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000122, y: 0.103027, z: -0.000977}
+    Rotation: {x: -110.961624, y: 73.799774, z: -80.761162}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4327e293-a857-4a9f-5b95-6c397d491e56
+  Components:
+    []
+- !<SceneObject/09a37cea-98aa-48f4-4e9a-bf1f35888399>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone041_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000092, y: 0.102539, z: -0.000244}
+    Rotation: {x: -110.951447, y: 73.491722, z: -80.435127}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d5506015-d19d-4f17-4580-4e2963e23b2a
+  Components:
+    []
+- !<SceneObject/0bc9c483-4839-420d-57a6-e2f12b5235b4>
+  PrefabRemaps:
+    []
+  Name: Dragon_eyes_Geo.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.289823, y: -0.274633, z: -1.738768}
+    Rotation: {x: -0.000014, y: 0.000000, z: 0.000000}
+    Scale: {x: 200.000000, y: 200.000000, z: 188.152496}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff1661be-8712-4703-407e-3b9c1cb3a56e
+- !<SceneObject/0e88b269-504d-4e88-4c8e-9b72ec60a270>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone014
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1059.849121, y: 7593.497559, z: 3669.887695}
+    Rotation: {x: -132.936554, y: 23.213810, z: 1.774865}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6a251468-0d60-4fb4-6001-a5ae6ce9a6b1
+  Components:
+    []
+- !<SceneObject/0f679bda-4b74-4e28-761a-fe904a70470b>
+  PrefabRemaps:
+    []
+  Name: Bip001_R_Thigh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -55.381821, y: 0.001846, z: 0.007111}
+    Rotation: {x: -57.602619, y: 9.561741, z: 8.743488}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a302cbba-85c3-4205-6270-314115373647
+  Components:
+    []
+- !<SceneObject/0fa49a01-e383-443c-5067-bec3c56c4649>
+  PrefabRemaps:
+    []
+  Name: Bip001_Pelvis
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.001221, y: 0.000641, z: -0.000290}
+    Rotation: {x: -108.434952, y: -90.000000, z: 18.434948}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0815da49-407d-42e1-5cfc-7ed7c6b8c9cc
+    - !<own> 0f679bda-4b74-4e28-761a-fe904a70470b
+  Components:
+    []
+- !<SceneObject/111b5401-fc03-4ba5-6b67-470a7ce02ac6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone009
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1163.701172, y: 7817.602051, z: 3923.040283}
+    Rotation: {x: -124.037750, y: 23.763985, z: 1.352166}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 89f67a0f-8a81-48fc-746a-eea5d67c39d6
+  Components:
+    []
+- !<SceneObject/11440091-3c29-4a95-5a2d-33d99e101861>
+  PrefabRemaps:
+    []
+  Name: Bip001_L_Foot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.821198, y: 107.083008, z: -6.700958}
+    Rotation: {x: 4.753760, y: -7.125064, z: 103.710663}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 988467d7-4487-4854-7df1-6fc1b5bf7b6f
+  Components:
+    []
+- !<ObjectPrefabAssetData/11a181f5-bec8-4d15-b978-5c81a290e20b>
+  Prototype: !<ObjectOwner/53ae9fde-ae25-42ba-bc3d-c9e56b8eb0f3>
+    PackagePath: ""
+    objects:
+      - !<own> dbc1596f-1bad-4bd9-6ca4-ff818df4ab58
+- !<SceneObject/12bbad30-2975-4015-47d7-e3ddc1e33d7d>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone021_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000031, y: 0.100571, z: 0.000305}
+    Rotation: {x: -0.000000, y: -0.000000, z: -0.000023}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e184da90-ba3d-4054-6dd7-5dcebe3e6264
+  Components:
+    []
+- !<SceneObject/15081bfa-7e0f-4e6a-4588-8344915cce4b>
+  PrefabRemaps:
+    []
+  Name: Bip001_R_Foot_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 91.727699, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/164b8900-1901-4a38-49a0-35c6cb0b9584>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone027_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100099, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/170f8c11-edf3-4697-77cc-f445de0c12b8>
+  PrefabRemaps:
+    []
+  Name: Bip002_L_Foot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000183, y: 74.287201, z: 0.000427}
+    Rotation: {x: -19.768099, y: 12.275236, z: -12.903894}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d3aee714-ed99-4099-46a1-cfa5f97c292f
+  Components:
+    []
+- !<SceneObject/17523a54-4631-4194-6da1-1dcb89271622>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone039_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.508911, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/1787bd27-5038-4d4f-65a3-8ac64024ba50>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone018
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 986.352173, y: 7403.922852, z: 3485.012939}
+    Rotation: {x: -132.943253, y: 23.203308, z: 1.761233}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4b138db5-0e61-4fb3-5a14-e9a0a6725b48
+  Components:
+    []
+- !<SceneObject/179fbedf-925c-4826-5d63-8acb67d83f9c>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone005_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099997, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/181de90e-bd57-4a98-4dbe-6b962003859a>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone003_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100106, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/1b5ce077-ea26-4d5d-7cc9-c98f763d776f>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone005_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000122, y: 0.100555, z: -0.000656}
+    Rotation: {x: 0.000038, y: -0.000000, z: 0.000021}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 179fbedf-925c-4826-5d63-8acb67d83f9c
+  Components:
+    []
+- !<SceneObject/1d1a7080-2a42-44ca-5a32-0a0035c55c53>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone035_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000046, y: 0.099182, z: 0.000259}
+    Rotation: {x: 0.000000, y: -0.000000, z: -0.000100}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa58994a-835b-4966-747b-45a0d89abad8
+  Components:
+    []
+- !<SceneObject/1d917398-8581-4b3e-7e0c-6dc3f2a72686>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1310.536865, y: 7956.789551, z: 4247.495605}
+    Rotation: {x: -98.001465, y: 25.560259, z: 0.579238}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c9bedb01-dd7a-41a1-5103-e3e339a64b20
+  Components:
+    []
+- !<SceneObject/1dbdafc6-3272-4cf6-41ee-6d49f2a23ea9>
+  PrefabRemaps:
+    []
+  Name: Bip002_L_Thigh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 51.242844, y: -0.000244, z: -0.002258}
+    Rotation: {x: -39.627590, y: 9.581135, z: -167.801697}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8ba7a879-8833-484c-7bc9-91d95a49644c
+  Components:
+    []
+- !<SceneObject/213a73d4-1595-4fb2-6791-5e72547833b3>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone031_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000122, y: 0.099289, z: 0.000351}
+    Rotation: {x: 0.000010, y: -0.000000, z: 0.000028}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 22702e39-f0c7-4b1b-6ad7-9bcc7e9be69f
+  Components:
+    []
+- !<SceneObject/21ec9c12-21cb-4854-6b6a-9f0fe1de5901>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone015_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000076, y: 0.099304, z: -0.000336}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000053}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> db5b334f-17c6-4643-63c7-8e4fbdd6248e
+  Components:
+    []
+- !<SceneObject/22377cd5-9b30-46c3-7aae-4851247d4243>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone003_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000092, y: 0.099915, z: -0.000519}
+    Rotation: {x: 0.000026, y: 0.000000, z: 0.000037}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 181de90e-bd57-4a98-4dbe-6b962003859a
+  Components:
+    []
+- !<SceneObject/22702e39-f0c7-4b1b-6ad7-9bcc7e9be69f>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone031_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099739, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/25900074-77d6-486c-5069-003e331f686f>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone026
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 832.833191, y: 7007.817383, z: 3098.713623}
+    Rotation: {x: -132.941895, y: 23.198187, z: 1.755356}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 70254d66-e3d2-4799-77ad-718fe0a7dd7a
+  Components:
+    []
+- !<SceneObject/25a941d0-09f6-4de7-76ef-dbc41ac2ced0>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone022_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000031, y: 0.099457, z: 0.000427}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000041}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44c8265f-0635-4602-6e95-a2b2dd1f793d
+  Components:
+    []
+- !<SceneObject/27493713-06df-4550-7b97-7fc950a6832e>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone032_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000122, y: 0.100372, z: -0.000031}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000068}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d4e99f97-5655-4a10-4231-47c1da800aab
+  Components:
+    []
+- !<SceneObject/2eaad9c6-235f-4e9c-66e4-d1f0d210beed>
+  PrefabRemaps:
+    []
+  Name: Bip002_Pelvis
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000580, y: 0.002899, z: 0.000320}
+    Rotation: {x: -98.130104, y: -90.000000, z: 7.125017}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1dbdafc6-3272-4cf6-41ee-6d49f2a23ea9
+    - !<own> 4a119da5-131e-4410-6d6b-4147219121d7
+  Components:
+    []
+- !<SceneObject/2f4fe907-5da7-4974-6714-46b2fda1a728>
+  PrefabRemaps:
+    []
+  Name: Dragon_body.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.043496, y: -0.274633, z: -0.013549}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b718ffe7-b682-49d8-5387-c205fd21f00a
+    - !<own> a63aa0a6-5fa9-44c0-5ff9-c6aba608cb38
+    - !<own> e1ea6225-576d-4062-719d-b4ce47e55e7b
+    - !<own> b4d1b694-f99f-4c4f-4699-fbf967d787f7
+    - !<own> 71ca30b3-b9b9-42b3-635f-a606b75f7750
+- !<SceneObject/2fd10482-a2b4-4256-737e-6e9f0610e8f8>
+  PrefabRemaps:
+    []
+  Name: Bip002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000488, y: 44.890961, z: -3.375153}
+    Rotation: {x: 90.055634, y: -90.000000, z: 90.055634}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2eaad9c6-235f-4e9c-66e4-d1f0d210beed
+  Components:
+    []
+- !<SceneObject/300f3e68-4ba4-4dd0-6325-3c380f48238d>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone010
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1141.771851, y: 7778.802246, z: 3871.206299}
+    Rotation: {x: -126.642899, y: 23.611570, z: 1.490275}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b385245-d992-4ddf-75ae-ce76c2a36dc2
+  Components:
+    []
+- !<SceneObject/33cac2d4-d51f-461d-5a7d-30e79db977aa>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone028
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 793.282227, y: 6905.787109, z: 2999.208252}
+    Rotation: {x: -132.941925, y: 23.197962, z: 1.755321}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c7b1cf64-d3f5-4ed8-778d-3265ce80251b
+  Components:
+    []
+- !<SceneObject/3546ee4f-7815-4429-75dc-ad38c3ce7a11>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone020_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099886, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/36b20bac-bef2-4642-5db7-8eb10bfc2c5b>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone029_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000229, y: 0.100113, z: 0.000076}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 557a1ae2-a43e-42bd-6b1b-5da1139745a3
+  Components:
+    []
+- !<SceneObject/386823b0-a135-4805-65db-f67b2954c6bc>
+  PrefabRemaps:
+    []
+  Name: Dragon_Fur_geo.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.043496, y: -0.274633, z: -0.013549}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c162c70f-0a3d-4377-7236-d0bd571a0fda
+- !<SceneObject/393de937-eae6-4c4b-7814-712064c9fe79>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_TOP_Bone001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1333.411621, y: 7959.395020, z: 4294.560059}
+    Rotation: {x: -92.606926, y: 25.955099, z: 0.551593}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5b802aa4-228e-463e-4b80-a97f248aa740
+  Components:
+    []
+- !<SceneObject/394e1c06-c971-4dae-5ce6-dee0a2e5f764>
+  PrefabRemaps:
+    []
+  Name: D_Head_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.508972, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AnimationPlayer/3c98a7f6-9b92-411a-523d-b92e5c0443ae>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 975d85bd-8c2a-40ab-8410-9b1f92dc6f9b
+      Name: Take 001|BaseLayer.005
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 199.600006
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7b5b2fcf-42c8-4312-ac42-e1a23a825a37
+      Name: Skeleton|fly 001|BaseLayer.001
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0f25255a-92fe-4096-ac35-fab0cbb8b394
+      Name: Skeleton|fly 001|BaseLayer.002
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4ccc1d4f-ba89-4a1a-b624-b8e13cfe1a5a
+      Name: Skeleton|fly 001|BaseLayer.005
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7b6d78c4-1a47-4e86-b6e2-1bb54ad1e005
+      Name: Skeleton|Take 001|BaseLayer.002
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 69e6877d-6f5f-4283-8d89-0187d3cf0373
+      Name: Skeleton|Take 001|BaseLayer.003
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4de3d65c-8f8d-4d88-b3a4-b8cfd1e8c311
+      Name: Skeleton|Take 001|BaseLayer.004
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8fdc26a4-abcb-4d37-acb2-4f1d3237ecb0
+      Name: Skeleton|Take 001|BaseLayer.005
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/4314cf4c-f0f4-4199-4e81-06a412af380f>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone004_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000259, y: 0.100555, z: 0.000031}
+    Rotation: {x: 0.000019, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ba9ce638-24a1-4329-42df-f4608a73f4a6
+  Components:
+    []
+- !<SceneObject/4327e293-a857-4a9f-5b95-6c397d491e56>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone040_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.508972, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/43cf60eb-de5a-4737-48c2-5c989e38b076>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone037_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000137, y: 0.098862, z: -0.000122}
+    Rotation: {x: 0.000013, y: 0.000000, z: -0.000021}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 99ff6994-59d1-4dcf-7241-e9db391658f1
+  Components:
+    []
+- !<SceneObject/43d89109-70fd-4bf5-744f-3c71d61db2ec>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone025_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099733, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/44c8265f-0635-4602-6e95-a2b2dd1f793d>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone022_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099795, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/47f62caf-5d51-4350-63db-31bbaf6f7131>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone009_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100012, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4926a512-d479-45ff-4240-4a66bc70b8f6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone019_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100038, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/49e8e9ae-8855-4572-6636-836fd51e26ea>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone006_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000298, y: 0.100342, z: 0.000046}
+    Rotation: {x: 0.000016, y: -0.000000, z: 0.000014}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9e69cc96-d36b-4342-602a-6f87a54ccd1c
+  Components:
+    []
+- !<SceneObject/4a119da5-131e-4410-6d6b-4147219121d7>
+  PrefabRemaps:
+    []
+  Name: Bip002_R_Thigh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -51.242874, y: -0.001007, z: -0.004196}
+    Rotation: {x: -39.675529, y: -4.090518, z: 168.529037}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 84ccf45d-bd37-4ff2-65d6-6e4363fcf7d5
+  Components:
+    []
+- !<SceneObject/4b138db5-0e61-4fb3-5a14-e9a0a6725b48>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone018_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000076, y: 0.099182, z: -0.000122}
+    Rotation: {x: 0.000014, y: -0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 790d42b1-feda-4a2e-6de8-947d4cccd098
+  Components:
+    []
+- !<SceneObject/4c2f9bbe-a870-408e-6805-89b1c00c6656>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone014_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099980, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4c4a8a88-1213-4bbb-704b-e00b765b58a4>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone006
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1227.612915, y: 7904.169434, z: 4069.326904}
+    Rotation: {x: -114.217491, y: 24.415491, z: 0.995183}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 49e8e9ae-8855-4572-6636-836fd51e26ea
+  Components:
+    []
+- !<SceneObject/4df1cc80-afbb-4635-7362-89dd88366345>
+  PrefabRemaps:
+    []
+  Name: Dragon_Eyebrows_Whiskers_geo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.043496, y: -0.274633, z: -0.013549}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb91a625-4f57-4911-5ceb-57afc005d4d9
+- !<SceneObject/4e530e0c-ebcd-4920-6388-aa24326a3153>
+  PrefabRemaps:
+    []
+  Name: Dummy_IK_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4e66f2cb-8dcd-4002-7417-4d3621d9eb40>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone023_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000107, y: 0.099869, z: 0.000397}
+    Rotation: {x: 0.000000, y: -0.000000, z: -0.000067}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 532ee7fb-b7fe-41d9-567c-2f5a67914686
+  Components:
+    []
+- !<SceneObject/4ef99d05-2356-416a-7931-fedb005b03a4>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone030
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 754.606995, y: 6805.992676, z: 2901.889648}
+    Rotation: {x: -132.941895, y: 23.198042, z: 1.755332}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6adc1300-7057-4ccd-6df3-cc5c2dd77a35
+  Components:
+    []
+- !<SceneObject/4f8a8393-d1cf-49e3-5ebb-a922ca5eead3>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone011_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000153, y: 0.100128, z: 0.000122}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d7848eb-7a35-486c-4934-3a9be73b0892
+  Components:
+    []
+- !<SceneObject/4f946b27-6d5a-4170-41c8-1b4392376865>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone037
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 623.569458, y: 6467.895020, z: 2572.162598}
+    Rotation: {x: -132.941879, y: 23.198029, z: 1.755354}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 43cf60eb-de5a-4737-48c2-5c989e38b076
+  Components:
+    []
+- !<SceneObject/4fa979c5-e056-4cf5-6a27-c096eb3e2748>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone016
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1021.405151, y: 7494.348633, z: 3573.218018}
+    Rotation: {x: -132.943130, y: 23.203316, z: 1.761236}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7c318856-8478-4cf0-5358-0c1672f78d89
+  Components:
+    []
+- !<SceneObject/508d0733-5d6b-47c5-57bb-4652894e2c2c>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone042_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.001221, y: 0.099121, z: -0.001465}
+    Rotation: {x: -110.986115, y: 73.172737, z: -80.064278}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 99772652-07fa-43fe-5847-81d324791c34
+  Components:
+    []
+- !<SceneObject/5259d703-3569-4270-71a3-93cf27f685cd>
+  PrefabRemaps:
+    []
+  Name: D_Head
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1331.791138, y: 8001.145508, z: 4347.680664}
+    Rotation: {x: -10.886292, y: -36.086803, z: -67.117371}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 394e1c06-c971-4dae-5ce6-dee0a2e5f764
+  Components:
+    []
+- !<SceneObject/532ee7fb-b7fe-41d9-567c-2f5a67914686>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone023_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099917, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/54ce1835-55c9-47bb-416c-59a310b6b1a6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone015
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1040.211304, y: 7542.956543, z: 3620.621338}
+    Rotation: {x: -132.943207, y: 23.202827, z: 1.761225}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 21ec9c12-21cb-4854-6b6a-9f0fe1de5901
+  Components:
+    []
+- !<SceneObject/557a1ae2-a43e-42bd-6b1b-5da1139745a3>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone029_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100102, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/57b7b401-7c27-46c7-782a-cdd6f47c74c1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone036
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 641.959290, y: 6515.334961, z: 2618.443115}
+    Rotation: {x: -132.941757, y: 23.198080, z: 1.755392}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76b4a23c-7241-424e-4201-9b6f63533025
+  Components:
+    []
+- !<SceneObject/5a0cdd5c-b730-4df4-7e29-c07441a22684>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone033_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000092, y: 0.100800, z: 0.000717}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000036}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a19a5bb2-4c23-48a8-429b-d90f95e12cbf
+  Components:
+    []
+- !<SceneObject/5b802aa4-228e-463e-4b80-a97f248aa740>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_TOP_Bone001_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000160, y: 0.100250, z: -0.000393}
+    Rotation: {x: 0.000011, y: 0.000000, z: 0.000013}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e5b357d9-be37-46e7-7115-bf30ad7e6009
+  Components:
+    []
+- !<SceneObject/5e694f9b-c7e9-4c7d-75ab-7dc656e05a48>
+  PrefabRemaps:
+    []
+  Name: Dummy_IK_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4e530e0c-ebcd-4920-6388-aa24326a3153
+  Components:
+    []
+- !<SceneObject/6235eba9-52e5-436a-76da-26292f13c066>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1267.146118, y: 7937.686523, z: 4155.927734}
+    Rotation: {x: -107.104668, y: 24.906929, z: 0.791272}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4314cf4c-f0f4-4199-4e81-06a412af380f
+  Components:
+    []
+- !<SceneObject/64e9a376-f190-4bfa-67cd-b5039488d8d2>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone027_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000244, y: 0.100189, z: -0.000015}
+    Rotation: {x: 0.000000, y: -0.000000, z: -0.000019}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 164b8900-1901-4a38-49a0-35c6cb0b9584
+  Components:
+    []
+- !<SceneObject/6a251468-0d60-4fb4-6001-a5ae6ce9a6b1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone014_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000137, y: 0.099884, z: 0.000458}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4c2f9bbe-a870-408e-6805-89b1c00c6656
+  Components:
+    []
+- !<SceneObject/6adc1300-7057-4ccd-6df3-cc5c2dd77a35>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone030_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000061, y: 0.099823, z: 0.000031}
+    Rotation: {x: 0.000029, y: -0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa0339d5-61c1-4edf-4ca3-dddeaebd98fc
+  Components:
+    []
+- !<SceneObject/6ef7a229-1ef3-41fc-49ea-1a7d887743dd>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone013
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1078.914551, y: 7641.839355, z: 3717.707031}
+    Rotation: {x: -132.535736, y: 23.227217, z: 1.741118}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 98c96bd9-c375-4b21-5c37-6f8262d3c7a9
+  Components:
+    []
+- !<SceneObject/70254d66-e3d2-4799-77ad-718fe0a7dd7a>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone026_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000061, y: 0.099854, z: 0.000153}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d70d96ac-96a8-4d29-6e4d-e200eebfa2d6
+  Components:
+    []
+- !<SceneObject/717e0092-fe0a-40b5-5c50-e6f19e64379c>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone029
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 774.319946, y: 6856.842773, z: 2951.475830}
+    Rotation: {x: -132.941895, y: 23.198187, z: 1.755330}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 36b20bac-bef2-4642-5db7-8eb10bfc2c5b
+  Components:
+    []
+- !<RenderMeshVisual/71ca30b3-b9b9-42b3-635f-a606b75f7750>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7fec0f75-a8ea-402e-be4b-a46375306baf
+  Mesh: !<reference> a5f79ac8-8598-4f7f-8d26-a1353a394492
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/721e4f45-33b9-41a7-6091-5435aaa75c55>
+  PrefabRemaps:
+    []
+  Name: N_Mir_White_01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> eeb47e80-9191-4cd0-504e-2dd08e435149
+  Components:
+    []
+- !<SceneObject/76b4a23c-7241-424e-4201-9b6f63533025>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone036_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000244, y: 0.099915, z: -0.000122}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000099}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ad4292d8-2888-4781-4565-d8980cb59dd4
+  Components:
+    []
+- !<SceneObject/790d42b1-feda-4a2e-6de8-947d4cccd098>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone018_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099945, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7b385245-d992-4ddf-75ae-ce76c2a36dc2>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone010_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000046, y: 0.099884, z: -0.000397}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a14fe763-28d8-42e0-5bf9-7b3f06cea6a7
+  Components:
+    []
+- !<SceneObject/7c318856-8478-4cf0-5358-0c1672f78d89>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone016_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000015, y: 0.100159, z: -0.000122}
+    Rotation: {x: 0.000000, y: -0.000000, z: -0.000110}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac350cde-d048-4dad-526d-9320b1d71ea6
+  Components:
+    []
+- !<SceneObject/82015064-f6e9-41ee-450f-395e3ce00852>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone007_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000244, y: 0.099884, z: 0.000031}
+    Rotation: {x: -0.000000, y: 0.000012, z: -0.000099}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b46a8a04-b459-4496-798c-c211bedebd77
+  Components:
+    []
+- !<SceneObject/82fa7a4b-d45d-4fdf-6a5a-1766c8ecbcaa>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1247.299072, y: 7922.798340, z: 4112.888184}
+    Rotation: {x: -110.916977, y: 24.645462, z: 0.895311}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b5ce077-ea26-4d5d-7cc9-c98f763d776f
+  Components:
+    []
+- !<SceneObject/83ac1363-1679-498d-787a-7610068079e1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone025_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000153, y: 0.100433, z: 0.000031}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000017}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 43d89109-70fd-4bf5-744f-3c71d61db2ec
+  Components:
+    []
+- !<SceneObject/84ccf45d-bd37-4ff2-65d6-6e4363fcf7d5>
+  PrefabRemaps:
+    []
+  Name: Bip002_R_Calf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000732, y: 128.070999, z: 0.000092}
+    Rotation: {x: -93.436241, y: -0.000000, z: -0.000085}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 95e5f517-05c4-45b3-5968-8e03e59d582f
+  Components:
+    []
+- !<SceneObject/895ead05-60d2-442d-66b7-ad10fb97e59a>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone034_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100226, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/89b19fc0-ab76-4f07-5bb5-f0e592ba1ee8>
+  PrefabRemaps:
+    []
+  Name: Bip002_L_HorseLink
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000061, y: 106.041779, z: -0.001968}
+    Rotation: {x: 71.672302, y: -0.000088, z: 0.000017}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 170f8c11-edf3-4697-77cc-f445de0c12b8
+  Components:
+    []
+- !<SceneObject/89f67a0f-8a81-48fc-746a-eea5d67c39d6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone009_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000229, y: 0.099731, z: -0.000427}
+    Rotation: {x: 0.000016, y: 0.000000, z: 0.000023}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47f62caf-5d51-4350-63db-31bbaf6f7131
+  Components:
+    []
+- !<SceneObject/8ba7a879-8833-484c-7bc9-91d95a49644c>
+  PrefabRemaps:
+    []
+  Name: Bip002_L_Calf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000732, y: 128.069122, z: -0.000183}
+    Rotation: {x: -98.151886, y: 0.000105, z: 0.000151}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 89b19fc0-ab76-4f07-5bb5-f0e592ba1ee8
+  Components:
+    []
+- !<SceneObject/9062c0eb-6ae3-4aa5-772c-bdd10c5ef3ee>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1288.278687, y: 7949.347656, z: 4201.192383}
+    Rotation: {x: -102.838928, y: 25.208141, z: 0.687079}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 22377cd5-9b30-46c3-7aae-4851247d4243
+  Components:
+    []
+- !<SceneObject/90b1f62c-5583-411d-7371-590745cb8b1a>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone031
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 735.929016, y: 6757.817871, z: 2854.904785}
+    Rotation: {x: -132.941940, y: 23.197815, z: 1.755322}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 213a73d4-1595-4fb2-6791-5e72547833b3
+  Components:
+    []
+- !<SceneObject/91ad7c7b-c4df-4f6d-5ff7-9ddb729d8cfc>
+  PrefabRemaps:
+    []
+  Name: Bone_Root
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1d917398-8581-4b3e-7e0c-6dc3f2a72686
+    - !<own> 9062c0eb-6ae3-4aa5-772c-bdd10c5ef3ee
+    - !<own> 6235eba9-52e5-436a-76da-26292f13c066
+    - !<own> 82fa7a4b-d45d-4fdf-6a5a-1766c8ecbcaa
+    - !<own> 4c4a8a88-1213-4bbb-704b-e00b765b58a4
+    - !<own> dd798095-2444-4133-6c60-75dbac89d5d0
+    - !<own> 042d424d-488d-409d-51ea-26c3248404ae
+    - !<own> 111b5401-fc03-4ba5-6b67-470a7ce02ac6
+    - !<own> 300f3e68-4ba4-4dd0-6325-3c380f48238d
+    - !<own> fdaf7c08-5ce5-48af-4946-250b79372e19
+    - !<own> e46e7fad-3ddb-4c6a-5560-1238bdf0abc9
+    - !<own> 6ef7a229-1ef3-41fc-49ea-1a7d887743dd
+    - !<own> 0e88b269-504d-4e88-4c8e-9b72ec60a270
+    - !<own> 54ce1835-55c9-47bb-416c-59a310b6b1a6
+    - !<own> 4fa979c5-e056-4cf5-6a27-c096eb3e2748
+    - !<own> 975c62c1-6b85-4bfb-7482-307c7943d1ec
+    - !<own> 1787bd27-5038-4d4f-65a3-8ac64024ba50
+    - !<own> cc38a397-754c-4dfe-5b6a-e0354e3b5ef3
+    - !<own> ac928afa-6c76-41d6-68d1-9655120a5e9f
+    - !<own> ccc87c53-45a7-4d7d-671a-43c9ab240c71
+    - !<own> d321c711-9c9b-4463-562d-52c4af7aaa74
+    - !<own> d8f8281d-1191-4941-65d2-8a4d582fa116
+    - !<own> 9e834658-747e-48bd-5417-e33655301aee
+    - !<own> e5190cd7-5688-419a-527d-3a61954019ac
+    - !<own> 25900074-77d6-486c-5069-003e331f686f
+    - !<own> af70b34d-4679-4626-7c3c-ec3b9ab18457
+    - !<own> 33cac2d4-d51f-461d-5a7d-30e79db977aa
+    - !<own> 717e0092-fe0a-40b5-5c50-e6f19e64379c
+    - !<own> 4ef99d05-2356-416a-7931-fedb005b03a4
+    - !<own> 90b1f62c-5583-411d-7371-590745cb8b1a
+    - !<own> 91e1f74b-aa28-4e32-4d70-bb2e0d5c5cbe
+    - !<own> d5c9a921-2e69-4068-5b69-b21635c8ee28
+    - !<own> 96e56082-888d-4ca7-58e3-07fc0c8da15c
+    - !<own> bcb2a8b8-91d9-40d1-67e9-129ef0c4780b
+    - !<own> 57b7b401-7c27-46c7-782a-cdd6f47c74c1
+    - !<own> 4f946b27-6d5a-4170-41c8-1b4392376865
+    - !<own> 393de937-eae6-4c4b-7814-712064c9fe79
+    - !<own> 5259d703-3569-4270-71a3-93cf27f685cd
+    - !<own> 9c6266d4-cc2e-42c4-4642-057166e15e81
+    - !<own> 0881cab6-55ff-4c27-7a31-ae0f07b65fa8
+    - !<own> 09a37cea-98aa-48f4-4e9a-bf1f35888399
+    - !<own> 508d0733-5d6b-47c5-57bb-4652894e2c2c
+    - !<own> cbd84fa6-4124-475a-6029-5fa09f7fdcd6
+  Components:
+    []
+- !<SceneObject/91e1f74b-aa28-4e32-4d70-bb2e0d5c5cbe>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone032
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 717.840942, y: 6711.124023, z: 2809.375977}
+    Rotation: {x: -132.941864, y: 23.198118, z: 1.755354}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 27493713-06df-4550-7b97-7fc950a6832e
+  Components:
+    []
+- !<SceneObject/95e5f517-05c4-45b3-5968-8e03e59d582f>
+  PrefabRemaps:
+    []
+  Name: Bip002_R_HorseLink
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000916, y: 106.040672, z: -0.004517}
+    Rotation: {x: 67.624886, y: 0.000072, z: -0.000135}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f586a22b-39e3-4421-4491-80cfd2d6d2a7
+  Components:
+    []
+- !<SceneObject/96e56082-888d-4ca7-58e3-07fc0c8da15c>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone034
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 677.857178, y: 6607.966309, z: 2708.774658}
+    Rotation: {x: -132.941849, y: 23.197948, z: 1.755365}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> de560cf3-fa9d-4f2b-71c2-02a728140f53
+  Components:
+    []
+- !<SceneObject/975c62c1-6b85-4bfb-7482-307c7943d1ec>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone017
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1003.593079, y: 7448.411621, z: 3528.396729}
+    Rotation: {x: -132.943253, y: 23.203247, z: 1.761198}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2fd10482-a2b4-4256-737e-6e9f0610e8f8
+  Components:
+    []
+- !<SceneObject/988467d7-4487-4854-7df1-6fc1b5bf7b6f>
+  PrefabRemaps:
+    []
+  Name: Bip001_L_Foot_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 91.727516, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/98c96bd9-c375-4b21-5c37-6f8262d3c7a9>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone013_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000031, y: 0.099243, z: -0.000610}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000083}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> afb97c83-3a09-421d-509a-e494217aac08
+  Components:
+    []
+- !<SceneObject/99772652-07fa-43fe-5847-81d324791c34>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone042_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.508972, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/99ff6994-59d1-4dcf-7241-e9db391658f1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone037_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100102, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9c6266d4-cc2e-42c4-4642-057166e15e81>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone039_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000702, y: 0.103516, z: 0.000488}
+    Rotation: {x: -111.071411, y: 74.009338, z: -81.157219}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 17523a54-4631-4194-6da1-1dcb89271622
+  Components:
+    []
+- !<SceneObject/9d7848eb-7a35-486c-4934-3a9be73b0892>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone011_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099981, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9e69cc96-d36b-4342-602a-6f87a54ccd1c>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone006_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099934, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9e834658-747e-48bd-5417-e33655301aee>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone024
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 873.836914, y: 7113.628418, z: 3201.913330}
+    Rotation: {x: -132.941895, y: 23.198011, z: 1.755370}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 023902db-f3eb-42c4-6273-777ddba7b5b7
+  Components:
+    []
+- !<SceneObject/9fb554dd-c857-4bb8-5884-b2f16b5e1114>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone044_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.509033, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a14fe763-28d8-42e0-5bf9-7b3f06cea6a7>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone010_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099959, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a19a5bb2-4c23-48a8-429b-d90f95e12cbf>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone033_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100105, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a302cbba-85c3-4205-6270-314115373647>
+  PrefabRemaps:
+    []
+  Name: Bip001_R_Calf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000916, y: 118.534836, z: -0.002220}
+    Rotation: {x: -93.099976, y: 0.000126, z: 0.000116}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a946f03e-b9a0-43b5-4e53-ec9a334b3b7c
+  Components:
+    []
+- !<RenderMeshVisual/a63aa0a6-5fa9-44c0-5ff9-c6aba608cb38>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0a857712-911a-4b77-b562-785ffc8614c9
+  Mesh: !<reference> aff6399b-9ae4-4a38-8ead-c8a39b3ad171
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a946f03e-b9a0-43b5-4e53-ec9a334b3b7c>
+  PrefabRemaps:
+    []
+  Name: Bip001_R_Foot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.256836, y: 100.580513, z: 23.841797}
+    Rotation: {x: -131.314285, y: -81.381790, z: 71.280197}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 15081bfa-7e0f-4e6a-4588-8344915cce4b
+  Components:
+    []
+- !<SceneObject/aa0339d5-61c1-4edf-4ca3-dddeaebd98fc>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone030_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099982, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/aa58994a-835b-4966-747b-45a0d89abad8>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone035_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099249, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ac350cde-d048-4dad-526d-9320b1d71ea6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone016_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100046, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ac928afa-6c76-41d6-68d1-9655120a5e9f>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone020
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 951.481201, y: 7313.924805, z: 3397.242920}
+    Rotation: {x: -132.943237, y: 23.203455, z: 1.761181}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b4d45371-68b5-4892-5ca6-3899dd8969b1
+  Components:
+    []
+- !<SceneObject/ad4292d8-2888-4781-4565-d8980cb59dd4>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone036_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099859, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/af70b34d-4679-4626-7c3c-ec3b9ab18457>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone027
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 813.564087, y: 6958.117676, z: 3050.252441}
+    Rotation: {x: -132.941895, y: 23.197889, z: 1.755325}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 64e9a376-f190-4bfa-67cd-b5039488d8d2
+  Components:
+    []
+- !<SceneObject/afb97c83-3a09-421d-509a-e494217aac08>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone013_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100006, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b46a8a04-b459-4496-798c-c211bedebd77>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone007_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100107, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/b46cff31-a330-41cc-5d2f-9e0ddb21d3cd>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  skinBones:
+    Bip001: !<reference> ee097546-bb4f-4f0d-70a7-8aea8cf3c2aa
+    Bip001_L_Calf: !<reference> eaa654f5-1fef-4847-7e04-e59c345eeba3
+    Bip001_L_Foot: !<reference> 11440091-3c29-4a95-5a2d-33d99e101861
+    Bip001_L_Foot_end: !<reference> 988467d7-4487-4854-7df1-6fc1b5bf7b6f
+    Bip001_L_Thigh: !<reference> 0815da49-407d-42e1-5cfc-7ed7c6b8c9cc
+    Bip001_Pelvis: !<reference> 0fa49a01-e383-443c-5067-bec3c56c4649
+    Bip001_R_Calf: !<reference> a302cbba-85c3-4205-6270-314115373647
+    Bip001_R_Foot: !<reference> a946f03e-b9a0-43b5-4e53-ec9a334b3b7c
+    Bip001_R_Foot_end: !<reference> 15081bfa-7e0f-4e6a-4588-8344915cce4b
+    Bip001_R_Thigh: !<reference> 0f679bda-4b74-4e28-761a-fe904a70470b
+    Bip002: !<reference> 2fd10482-a2b4-4256-737e-6e9f0610e8f8
+    Bip002_L_Calf: !<reference> 8ba7a879-8833-484c-7bc9-91d95a49644c
+    Bip002_L_Foot: !<reference> 170f8c11-edf3-4697-77cc-f445de0c12b8
+    Bip002_L_Foot_end: !<reference> d3aee714-ed99-4099-46a1-cfa5f97c292f
+    Bip002_L_HorseLink: !<reference> 89b19fc0-ab76-4f07-5bb5-f0e592ba1ee8
+    Bip002_L_Thigh: !<reference> 1dbdafc6-3272-4cf6-41ee-6d49f2a23ea9
+    Bip002_Pelvis: !<reference> 2eaad9c6-235f-4e9c-66e4-d1f0d210beed
+    Bip002_R_Calf: !<reference> 84ccf45d-bd37-4ff2-65d6-6e4363fcf7d5
+    Bip002_R_Foot: !<reference> f586a22b-39e3-4421-4491-80cfd2d6d2a7
+    Bip002_R_Foot_end: !<reference> b7378d2b-3c7e-4f67-6a97-2dab8aefe920
+    Bip002_R_HorseLink: !<reference> 95e5f517-05c4-45b3-5968-8e03e59d582f
+    Bip002_R_Thigh: !<reference> 4a119da5-131e-4410-6d6b-4147219121d7
+    Bone_Root: !<reference> 91ad7c7b-c4df-4f6d-5ff7-9ddb729d8cfc
+    D_Head: !<reference> 5259d703-3569-4270-71a3-93cf27f685cd
+    D_Head_end: !<reference> 394e1c06-c971-4dae-5ce6-dee0a2e5f764
+    Dragon_Eyebrows_Whiskers_geo: !<reference> 4df1cc80-afbb-4635-7362-89dd88366345
+    Dragon_Fur_geo.001: !<reference> 386823b0-a135-4805-65db-f67b2954c6bc
+    Dragon_body.001: !<reference> 2f4fe907-5da7-4974-6714-46b2fda1a728
+    Dragon_eyes_Geo.001: !<reference> 0bc9c483-4839-420d-57a6-e2f12b5235b4
+    Dummy_CP: !<reference> eeb47e80-9191-4cd0-504e-2dd08e435149
+    Dummy_IK: !<reference> d4831ef5-639b-4a71-5973-4c67d7d7a4cc
+    Dummy_IK_end: !<reference> 5e694f9b-c7e9-4c7d-75ab-7dc656e05a48
+    Dummy_IK_end_end: !<reference> 4e530e0c-ebcd-4920-6388-aa24326a3153
+    MAYA_DRAGON: !<reference> dbc1596f-1bad-4bd9-6ca4-ff818df4ab58
+    N_Mir_White_01: !<reference> 721e4f45-33b9-41a7-6091-5435aaa75c55
+    RL_BoneRoot: !<reference> fccf961b-2fa9-49a8-5c4d-aed07e25923b
+    SOXNFB_Bone002: !<reference> 1d917398-8581-4b3e-7e0c-6dc3f2a72686
+    SOXNFB_Bone002_end: !<reference> c9bedb01-dd7a-41a1-5103-e3e339a64b20
+    SOXNFB_Bone002_end_end: !<reference> 0226cf9f-e141-46d9-750a-81a2d059c376
+    SOXNFB_Bone003: !<reference> 9062c0eb-6ae3-4aa5-772c-bdd10c5ef3ee
+    SOXNFB_Bone003_end: !<reference> 22377cd5-9b30-46c3-7aae-4851247d4243
+    SOXNFB_Bone003_end_end: !<reference> 181de90e-bd57-4a98-4dbe-6b962003859a
+    SOXNFB_Bone004: !<reference> 6235eba9-52e5-436a-76da-26292f13c066
+    SOXNFB_Bone004_end: !<reference> 4314cf4c-f0f4-4199-4e81-06a412af380f
+    SOXNFB_Bone004_end_end: !<reference> ba9ce638-24a1-4329-42df-f4608a73f4a6
+    SOXNFB_Bone005: !<reference> 82fa7a4b-d45d-4fdf-6a5a-1766c8ecbcaa
+    SOXNFB_Bone005_end: !<reference> 1b5ce077-ea26-4d5d-7cc9-c98f763d776f
+    SOXNFB_Bone005_end_end: !<reference> 179fbedf-925c-4826-5d63-8acb67d83f9c
+    SOXNFB_Bone006: !<reference> 4c4a8a88-1213-4bbb-704b-e00b765b58a4
+    SOXNFB_Bone006_end: !<reference> 49e8e9ae-8855-4572-6636-836fd51e26ea
+    SOXNFB_Bone006_end_end: !<reference> 9e69cc96-d36b-4342-602a-6f87a54ccd1c
+    SOXNFB_Bone007: !<reference> dd798095-2444-4133-6c60-75dbac89d5d0
+    SOXNFB_Bone007_end: !<reference> 82015064-f6e9-41ee-450f-395e3ce00852
+    SOXNFB_Bone007_end_end: !<reference> b46a8a04-b459-4496-798c-c211bedebd77
+    SOXNFB_Bone008: !<reference> 042d424d-488d-409d-51ea-26c3248404ae
+    SOXNFB_Bone009: !<reference> 111b5401-fc03-4ba5-6b67-470a7ce02ac6
+    SOXNFB_Bone009_end: !<reference> 89f67a0f-8a81-48fc-746a-eea5d67c39d6
+    SOXNFB_Bone009_end_end: !<reference> 47f62caf-5d51-4350-63db-31bbaf6f7131
+    SOXNFB_Bone010: !<reference> 300f3e68-4ba4-4dd0-6325-3c380f48238d
+    SOXNFB_Bone010_end: !<reference> 7b385245-d992-4ddf-75ae-ce76c2a36dc2
+    SOXNFB_Bone010_end_end: !<reference> a14fe763-28d8-42e0-5bf9-7b3f06cea6a7
+    SOXNFB_Bone011: !<reference> fdaf7c08-5ce5-48af-4946-250b79372e19
+    SOXNFB_Bone011_end: !<reference> 4f8a8393-d1cf-49e3-5ebb-a922ca5eead3
+    SOXNFB_Bone011_end_end: !<reference> 9d7848eb-7a35-486c-4934-3a9be73b0892
+    SOXNFB_Bone012: !<reference> e46e7fad-3ddb-4c6a-5560-1238bdf0abc9
+    SOXNFB_Bone012_end: !<reference> f3733f93-e934-4f39-4cad-e991093f70d8
+    SOXNFB_Bone012_end_end: !<reference> da716c5e-03fc-42af-7e4b-609789b10cd6
+    SOXNFB_Bone013: !<reference> 6ef7a229-1ef3-41fc-49ea-1a7d887743dd
+    SOXNFB_Bone013_end: !<reference> 98c96bd9-c375-4b21-5c37-6f8262d3c7a9
+    SOXNFB_Bone013_end_end: !<reference> afb97c83-3a09-421d-509a-e494217aac08
+    SOXNFB_Bone014: !<reference> 0e88b269-504d-4e88-4c8e-9b72ec60a270
+    SOXNFB_Bone014_end: !<reference> 6a251468-0d60-4fb4-6001-a5ae6ce9a6b1
+    SOXNFB_Bone014_end_end: !<reference> 4c2f9bbe-a870-408e-6805-89b1c00c6656
+    SOXNFB_Bone015: !<reference> 54ce1835-55c9-47bb-416c-59a310b6b1a6
+    SOXNFB_Bone015_end: !<reference> 21ec9c12-21cb-4854-6b6a-9f0fe1de5901
+    SOXNFB_Bone015_end_end: !<reference> db5b334f-17c6-4643-63c7-8e4fbdd6248e
+    SOXNFB_Bone016: !<reference> 4fa979c5-e056-4cf5-6a27-c096eb3e2748
+    SOXNFB_Bone016_end: !<reference> 7c318856-8478-4cf0-5358-0c1672f78d89
+    SOXNFB_Bone016_end_end: !<reference> ac350cde-d048-4dad-526d-9320b1d71ea6
+    SOXNFB_Bone017: !<reference> 975c62c1-6b85-4bfb-7482-307c7943d1ec
+    SOXNFB_Bone018: !<reference> 1787bd27-5038-4d4f-65a3-8ac64024ba50
+    SOXNFB_Bone018_end: !<reference> 4b138db5-0e61-4fb3-5a14-e9a0a6725b48
+    SOXNFB_Bone018_end_end: !<reference> 790d42b1-feda-4a2e-6de8-947d4cccd098
+    SOXNFB_Bone019: !<reference> cc38a397-754c-4dfe-5b6a-e0354e3b5ef3
+    SOXNFB_Bone019_end: !<reference> 0137e20e-f7f7-4b38-6ba4-a60138ebbf68
+    SOXNFB_Bone019_end_end: !<reference> 4926a512-d479-45ff-4240-4a66bc70b8f6
+    SOXNFB_Bone020: !<reference> ac928afa-6c76-41d6-68d1-9655120a5e9f
+    SOXNFB_Bone020_end: !<reference> b4d45371-68b5-4892-5ca6-3899dd8969b1
+    SOXNFB_Bone020_end_end: !<reference> 3546ee4f-7815-4429-75dc-ad38c3ce7a11
+    SOXNFB_Bone021: !<reference> ccc87c53-45a7-4d7d-671a-43c9ab240c71
+    SOXNFB_Bone021_end: !<reference> 12bbad30-2975-4015-47d7-e3ddc1e33d7d
+    SOXNFB_Bone021_end_end: !<reference> e184da90-ba3d-4054-6dd7-5dcebe3e6264
+    SOXNFB_Bone022: !<reference> d321c711-9c9b-4463-562d-52c4af7aaa74
+    SOXNFB_Bone022_end: !<reference> 25a941d0-09f6-4de7-76ef-dbc41ac2ced0
+    SOXNFB_Bone022_end_end: !<reference> 44c8265f-0635-4602-6e95-a2b2dd1f793d
+    SOXNFB_Bone023: !<reference> d8f8281d-1191-4941-65d2-8a4d582fa116
+    SOXNFB_Bone023_end: !<reference> 4e66f2cb-8dcd-4002-7417-4d3621d9eb40
+    SOXNFB_Bone023_end_end: !<reference> 532ee7fb-b7fe-41d9-567c-2f5a67914686
+    SOXNFB_Bone024: !<reference> 9e834658-747e-48bd-5417-e33655301aee
+    SOXNFB_Bone024_end: !<reference> 023902db-f3eb-42c4-6273-777ddba7b5b7
+    SOXNFB_Bone024_end_end: !<reference> fa488edf-4923-4b7f-5b71-35ed4a5ccdc1
+    SOXNFB_Bone025: !<reference> e5190cd7-5688-419a-527d-3a61954019ac
+    SOXNFB_Bone025_end: !<reference> 83ac1363-1679-498d-787a-7610068079e1
+    SOXNFB_Bone025_end_end: !<reference> 43d89109-70fd-4bf5-744f-3c71d61db2ec
+    SOXNFB_Bone026: !<reference> 25900074-77d6-486c-5069-003e331f686f
+    SOXNFB_Bone026_end: !<reference> 70254d66-e3d2-4799-77ad-718fe0a7dd7a
+    SOXNFB_Bone026_end_end: !<reference> d70d96ac-96a8-4d29-6e4d-e200eebfa2d6
+    SOXNFB_Bone027: !<reference> af70b34d-4679-4626-7c3c-ec3b9ab18457
+    SOXNFB_Bone027_end: !<reference> 64e9a376-f190-4bfa-67cd-b5039488d8d2
+    SOXNFB_Bone027_end_end: !<reference> 164b8900-1901-4a38-49a0-35c6cb0b9584
+    SOXNFB_Bone028: !<reference> 33cac2d4-d51f-461d-5a7d-30e79db977aa
+    SOXNFB_Bone028_end: !<reference> c7b1cf64-d3f5-4ed8-778d-3265ce80251b
+    SOXNFB_Bone028_end_end: !<reference> fce2e8c6-f294-4618-7abd-de12451466a1
+    SOXNFB_Bone029: !<reference> 717e0092-fe0a-40b5-5c50-e6f19e64379c
+    SOXNFB_Bone029_end: !<reference> 36b20bac-bef2-4642-5db7-8eb10bfc2c5b
+    SOXNFB_Bone029_end_end: !<reference> 557a1ae2-a43e-42bd-6b1b-5da1139745a3
+    SOXNFB_Bone030: !<reference> 4ef99d05-2356-416a-7931-fedb005b03a4
+    SOXNFB_Bone030_end: !<reference> 6adc1300-7057-4ccd-6df3-cc5c2dd77a35
+    SOXNFB_Bone030_end_end: !<reference> aa0339d5-61c1-4edf-4ca3-dddeaebd98fc
+    SOXNFB_Bone031: !<reference> 90b1f62c-5583-411d-7371-590745cb8b1a
+    SOXNFB_Bone031_end: !<reference> 213a73d4-1595-4fb2-6791-5e72547833b3
+    SOXNFB_Bone031_end_end: !<reference> 22702e39-f0c7-4b1b-6ad7-9bcc7e9be69f
+    SOXNFB_Bone032: !<reference> 91e1f74b-aa28-4e32-4d70-bb2e0d5c5cbe
+    SOXNFB_Bone032_end: !<reference> 27493713-06df-4550-7b97-7fc950a6832e
+    SOXNFB_Bone032_end_end: !<reference> d4e99f97-5655-4a10-4231-47c1da800aab
+    SOXNFB_Bone033: !<reference> d5c9a921-2e69-4068-5b69-b21635c8ee28
+    SOXNFB_Bone033_end: !<reference> 5a0cdd5c-b730-4df4-7e29-c07441a22684
+    SOXNFB_Bone033_end_end: !<reference> a19a5bb2-4c23-48a8-429b-d90f95e12cbf
+    SOXNFB_Bone034: !<reference> 96e56082-888d-4ca7-58e3-07fc0c8da15c
+    SOXNFB_Bone034_end: !<reference> de560cf3-fa9d-4f2b-71c2-02a728140f53
+    SOXNFB_Bone034_end_end: !<reference> 895ead05-60d2-442d-66b7-ad10fb97e59a
+    SOXNFB_Bone035: !<reference> bcb2a8b8-91d9-40d1-67e9-129ef0c4780b
+    SOXNFB_Bone035_end: !<reference> 1d1a7080-2a42-44ca-5a32-0a0035c55c53
+    SOXNFB_Bone035_end_end: !<reference> aa58994a-835b-4966-747b-45a0d89abad8
+    SOXNFB_Bone036: !<reference> 57b7b401-7c27-46c7-782a-cdd6f47c74c1
+    SOXNFB_Bone036_end: !<reference> 76b4a23c-7241-424e-4201-9b6f63533025
+    SOXNFB_Bone036_end_end: !<reference> ad4292d8-2888-4781-4565-d8980cb59dd4
+    SOXNFB_Bone037: !<reference> 4f946b27-6d5a-4170-41c8-1b4392376865
+    SOXNFB_Bone037_end: !<reference> 43cf60eb-de5a-4737-48c2-5c989e38b076
+    SOXNFB_Bone037_end_end: !<reference> 99ff6994-59d1-4dcf-7241-e9db391658f1
+    SOXNFB_Bone039_end: !<reference> 9c6266d4-cc2e-42c4-4642-057166e15e81
+    SOXNFB_Bone039_end_end: !<reference> 17523a54-4631-4194-6da1-1dcb89271622
+    SOXNFB_Bone040_end: !<reference> 0881cab6-55ff-4c27-7a31-ae0f07b65fa8
+    SOXNFB_Bone040_end_end: !<reference> 4327e293-a857-4a9f-5b95-6c397d491e56
+    SOXNFB_Bone041_end: !<reference> 09a37cea-98aa-48f4-4e9a-bf1f35888399
+    SOXNFB_Bone041_end_end: !<reference> d5506015-d19d-4f17-4580-4e2963e23b2a
+    SOXNFB_Bone042_end: !<reference> 508d0733-5d6b-47c5-57bb-4652894e2c2c
+    SOXNFB_Bone042_end_end: !<reference> 99772652-07fa-43fe-5847-81d324791c34
+    SOXNFB_Bone044_end: !<reference> cbd84fa6-4124-475a-6029-5fa09f7fdcd6
+    SOXNFB_Bone044_end_end: !<reference> 9fb554dd-c857-4bb8-5884-b2f16b5e1114
+    SOXNFB_TOP_Bone001: !<reference> 393de937-eae6-4c4b-7814-712064c9fe79
+    SOXNFB_TOP_Bone001_end: !<reference> 5b802aa4-228e-463e-4b80-a97f248aa740
+    SOXNFB_TOP_Bone001_end_end: !<reference> e5b357d9-be37-46e7-7115-bf30ad7e6009
+    Skeleton: !<reference> b75151cc-731a-42e0-7feb-61c14113918e
+- !<RenderMeshVisual/b4d1b694-f99f-4c4f-4699-fbf967d787f7>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> adc696e0-a2c4-403f-8c78-cc8f37b64aa0
+  Mesh: !<reference> ab7d5f80-6497-46b2-b972-17ba23778a8c
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b4d45371-68b5-4892-5ca6-3899dd8969b1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone020_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000168, y: 0.100266, z: 0.000153}
+    Rotation: {x: 0.000016, y: -0.000000, z: -0.000023}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3546ee4f-7815-4429-75dc-ad38c3ce7a11
+  Components:
+    []
+- !<RenderMeshVisual/b718ffe7-b682-49d8-5387-c205fd21f00a>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f9373930-8f61-429f-bc50-2d174cdef5f3
+  Mesh: !<reference> ac7a7bd7-3079-4809-a20c-c3e3bcbcbcc0
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b7378d2b-3c7e-4f67-6a97-2dab8aefe920>
+  PrefabRemaps:
+    []
+  Name: Bip002_R_Foot_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 74.280617, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b75151cc-731a-42e0-7feb-61c14113918e>
+  PrefabRemaps:
+    []
+  Name: Skeleton
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -2.043496, y: -0.274633, z: -0.013549}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fccf961b-2fa9-49a8-5c4d-aed07e25923b
+  Components:
+    []
+- !<SceneObject/ba9ce638-24a1-4329-42df-f4608a73f4a6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone004_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100118, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/bcb2a8b8-91d9-40d1-67e9-129ef0c4780b>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone035
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 659.031555, y: 6559.389648, z: 2661.404053}
+    Rotation: {x: -132.941803, y: 23.198009, z: 1.755382}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1d1a7080-2a42-44ca-5a32-0a0035c55c53
+  Components:
+    []
+- !<RenderMeshVisual/c162c70f-0a3d-4377-7236-d0bd571a0fda>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> db20a66b-1761-4ad0-aa28-37f4da4a96fd
+  Mesh: !<reference> 9662f111-35ce-4fb7-a1d3-978b5a5bcf9c
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7b1cf64-d3f5-4ed8-778d-3265ce80251b>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone028_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000198, y: 0.099915, z: -0.000092}
+    Rotation: {x: 0.000000, y: 0.000013, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fce2e8c6-f294-4618-7abd-de12451466a1
+  Components:
+    []
+- !<SceneObject/c9bedb01-dd7a-41a1-5103-e3e339a64b20>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone002_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000053, y: 0.099976, z: 0.000237}
+    Rotation: {x: 0.000039, y: 0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0226cf9f-e141-46d9-750a-81a2d059c376
+  Components:
+    []
+- !<SceneObject/cbd84fa6-4124-475a-6029-5fa09f7fdcd6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone044_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000244, y: 0.100586, z: 0.001220}
+    Rotation: {x: -112.010078, y: 73.128548, z: -81.035324}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9fb554dd-c857-4bb8-5884-b2f16b5e1114
+  Components:
+    []
+- !<SceneObject/cc38a397-754c-4dfe-5b6a-e0354e3b5ef3>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone019
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 969.578857, y: 7360.612305, z: 3442.775146}
+    Rotation: {x: -132.943207, y: 23.203485, z: 1.761194}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0137e20e-f7f7-4b38-6ba4-a60138ebbf68
+  Components:
+    []
+- !<SceneObject/ccc87c53-45a7-4d7d-671a-43c9ab240c71>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone021
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 932.212708, y: 7264.226074, z: 3348.780029}
+    Rotation: {x: -132.943207, y: 23.203321, z: 1.761212}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12bbad30-2975-4015-47d7-e3ddc1e33d7d
+  Components:
+    []
+- !<SceneObject/d321c711-9c9b-4463-562d-52c4af7aaa74>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone022
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 912.064209, y: 7212.268555, z: 3298.116943}
+    Rotation: {x: -132.943207, y: 23.203093, z: 1.761225}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25a941d0-09f6-4de7-76ef-dbc41ac2ced0
+  Components:
+    []
+- !<SceneObject/d3aee714-ed99-4099-46a1-cfa5f97c292f>
+  PrefabRemaps:
+    []
+  Name: Bip002_L_Foot_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 74.280556, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d4831ef5-639b-4a71-5973-4c67d7d7a4cc>
+  PrefabRemaps:
+    []
+  Name: Dummy_IK
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -0.000000, y: 0.000014, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5e694f9b-c7e9-4c7d-75ab-7dc656e05a48
+  Components:
+    []
+- !<SceneObject/d4e99f97-5655-4a10-4231-47c1da800aab>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone032_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100472, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d5506015-d19d-4f17-4580-4e2963e23b2a>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone041_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 634.508972, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d5c9a921-2e69-4068-5b69-b21635c8ee28>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone033
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 697.844849, y: 6659.542969, z: 2759.071289}
+    Rotation: {x: -132.941879, y: 23.197935, z: 1.755355}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5a0cdd5c-b730-4df4-7e29-c07441a22684
+  Components:
+    []
+- !<SceneObject/d70d96ac-96a8-4d29-6e4d-e200eebfa2d6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone026_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100038, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d8f8281d-1191-4941-65d2-8a4d582fa116>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone023
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 893.383179, y: 7164.081055, z: 3251.120605}
+    Rotation: {x: -132.943176, y: 23.203041, z: 1.761243}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4e66f2cb-8dcd-4002-7417-4d3621d9eb40
+  Components:
+    []
+- !<SceneObject/da716c5e-03fc-42af-7e4b-609789b10cd6>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone012_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100012, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/db5b334f-17c6-4643-63c7-8e4fbdd6248e>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone015_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099946, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/dbc1596f-1bad-4bd9-6ca4-ff818df4ab58>
+  PrefabRemaps:
+    []
+  Name: MAYA_DRAGON
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4df1cc80-afbb-4635-7362-89dd88366345
+    - !<own> 386823b0-a135-4805-65db-f67b2954c6bc
+    - !<own> 2f4fe907-5da7-4974-6714-46b2fda1a728
+    - !<own> 0bc9c483-4839-420d-57a6-e2f12b5235b4
+    - !<own> b75151cc-731a-42e0-7feb-61c14113918e
+  Components:
+    - !<own> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+    - !<own> 3c98a7f6-9b92-411a-523d-b92e5c0443ae
+- !<SceneObject/dd798095-2444-4133-6c60-75dbac89d5d0>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1210.293091, y: 7884.596680, z: 4030.357178}
+    Rotation: {x: -117.562012, y: 24.190441, z: 1.101890}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 82015064-f6e9-41ee-450f-395e3ce00852
+  Components:
+    []
+- !<SceneObject/de560cf3-fa9d-4f2b-71c2-02a728140f53>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone034_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000061, y: 0.100494, z: -0.000168}
+    Rotation: {x: 0.000000, y: 0.000000, z: -0.000081}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 895ead05-60d2-442d-66b7-ad10fb97e59a
+  Components:
+    []
+- !<SceneObject/e184da90-ba3d-4054-6dd7-5dcebe3e6264>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone021_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100161, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/e1ea6225-576d-4062-719d-b4ce47e55e7b>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 763a227c-11b9-4657-8a3b-725cb4746a12
+  Mesh: !<reference> ff977e0a-b06a-4400-83fd-a0f77a93541d
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e46e7fad-3ddb-4c6a-5560-1238bdf0abc9>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone012
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1099.125488, y: 7690.125488, z: 3767.951416}
+    Rotation: {x: -131.056915, y: 23.317492, z: 1.670196}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f3733f93-e934-4f39-4cad-e991093f70d8
+  Components:
+    []
+- !<SceneObject/e5190cd7-5688-419a-527d-3a61954019ac>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone025
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 853.709412, y: 7061.660645, z: 3151.221436}
+    Rotation: {x: -132.941895, y: 23.198303, z: 1.755340}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 83ac1363-1679-498d-787a-7610068079e1
+  Components:
+    []
+- !<SceneObject/e5b357d9-be37-46e7-7115-bf30ad7e6009>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_TOP_Bone001_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099846, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/eaa654f5-1fef-4847-7e04-e59c345eeba3>
+  PrefabRemaps:
+    []
+  Name: Bip001_L_Calf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000336, y: 118.534943, z: -0.004333}
+    Rotation: {x: -40.428356, y: 0.000018, z: 0.000034}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 11440091-3c29-4a95-5a2d-33d99e101861
+  Components:
+    []
+- !<RenderMeshVisual/eb91a625-4f57-4911-5ceb-57afc005d4d9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a020a2ef-2532-4435-9b1d-d1744a74867a
+  Mesh: !<reference> aa0814c1-6c84-4300-86b0-fe8c98e7a60d
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ee097546-bb4f-4f0d-70a7-8aea8cf3c2aa>
+  PrefabRemaps:
+    []
+  Name: Bip001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000763, y: 7.058716, z: -3.487000}
+    Rotation: {x: -89.999702, y: -88.340233, z: -90.000412}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0fa49a01-e383-443c-5067-bec3c56c4649
+  Components:
+    []
+- !<SceneObject/eeb47e80-9191-4cd0-504e-2dd08e435149>
+  PrefabRemaps:
+    []
+  Name: Dummy_CP
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -89.980217, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 91ad7c7b-c4df-4f6d-5ff7-9ddb729d8cfc
+    - !<own> d4831ef5-639b-4a71-5973-4c67d7d7a4cc
+  Components:
+    []
+- !<SceneObject/f3733f93-e934-4f39-4cad-e991093f70d8>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone012_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000244, y: 0.099976, z: 0.000946}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000027}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> da716c5e-03fc-42af-7e4b-609789b10cd6
+  Components:
+    []
+- !<SceneObject/f586a22b-39e3-4421-4491-80cfd2d6d2a7>
+  PrefabRemaps:
+    []
+  Name: Bip002_R_Foot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000671, y: 74.285370, z: 0.000977}
+    Rotation: {x: -20.772638, y: -13.696733, z: 7.804897}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b7378d2b-3c7e-4f67-6a97-2dab8aefe920
+  Components:
+    []
+- !<SceneObject/fa488edf-4923-4b7f-5b71-35ed4a5ccdc1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone024_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.100160, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/fccf961b-2fa9-49a8-5c4d-aed07e25923b>
+  PrefabRemaps:
+    []
+  Name: RL_BoneRoot
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.043496, y: 0.274633, z: 0.013549}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 721e4f45-33b9-41a7-6091-5435aaa75c55
+  Components:
+    []
+- !<SceneObject/fce2e8c6-f294-4618-7abd-de12451466a1>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone028_end_end
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.099978, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/fdaf7c08-5ce5-48af-4946-250b79372e19>
+  PrefabRemaps:
+    []
+  Name: SOXNFB_Bone011
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1120.463867, y: 7736.612305, z: 3819.937988}
+    Rotation: {x: -128.987640, y: 23.454918, z: 1.581380}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4f8a8393-d1cf-49e3-5ebb-a922ca5eead3
+  Components:
+    []
+- !<RenderMeshVisual/ff1661be-8712-4703-407e-3b9c1cb3a56e>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dc4fc81b-4edc-412f-b987-9d906289097a
+  Mesh: !<reference> 862dc3c5-9c2e-48da-aad9-1f6c86cfc95b
+  Skin: !<reference> b46cff31-a330-41cc-5d2f-9e0ddb21d3cd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
